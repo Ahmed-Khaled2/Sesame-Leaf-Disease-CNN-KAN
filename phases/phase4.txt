@@ -1,0 +1,78 @@
+# Phase 4 - extra experiments for the journal version. One night, 3 workers (about 8-9 hours).
+# Lines are in priority order. Nothing here changes the phase 1-3 results.
+# Needs the extra split files (outputs/splits/splits_*_random.csv, splits_bbhl_*.csv).
+
+# A. Spline-only KAN again, now with weights saved (for the learned-curve figures). Same numbers as phase 3.
+--phase P4 --data multi --head kan --kan-base off --seed 0 --save-weights best
+--phase P4 --data base --head kan --kan-base off --seed 0 --save-weights best
+
+# B. Source check: Bacterial Blight vs Healthy, trained on one source and tested on the other (ERFD <-> MSLD),
+#    and the same photos with normal mixed splits as the reference. --oversample 1 = plain balanced epochs.
+--phase P4 --data bbhl_cross --head kan --oversample 1 --seed 0
+--phase P4 --data bbhl_cross --head mlp --oversample 1 --seed 0
+--phase P4 --data bbhl_cross --head kan --oversample 1 --seed 1
+--phase P4 --data bbhl_cross --head mlp --oversample 1 --seed 1
+--phase P4 --data bbhl_cross --head kan --oversample 1 --seed 2
+--phase P4 --data bbhl_cross --head mlp --oversample 1 --seed 2
+--phase P4 --data bbhl_mixed --head kan --oversample 1 --seed 0
+--phase P4 --data bbhl_mixed --head mlp --oversample 1 --seed 0
+--phase P4 --data bbhl_mixed --head kan --oversample 1 --seed 1
+--phase P4 --data bbhl_mixed --head mlp --oversample 1 --seed 1
+--phase P4 --data bbhl_mixed --head kan --oversample 1 --seed 2
+--phase P4 --data bbhl_mixed --head mlp --oversample 1 --seed 2
+
+# C. Second backbone: EfficientNet-B0 (last two stages + final conv unfrozen), the same 5 heads as phase 3
+--phase P4 --data multi --backbone efficientnet_b0 --head kan --seed 0
+--phase P4 --data multi --backbone efficientnet_b0 --head mlp --seed 0
+--phase P4 --data multi --backbone efficientnet_b0 --head mlp --hidden 1536 --seed 0
+--phase P4 --data multi --backbone efficientnet_b0 --head linear --seed 0
+--phase P4 --data multi --backbone efficientnet_b0 --head kan --kan-base off --seed 0
+--phase P4 --data multi --backbone efficientnet_b0 --head kan --seed 1
+--phase P4 --data multi --backbone efficientnet_b0 --head mlp --seed 1
+--phase P4 --data multi --backbone efficientnet_b0 --head mlp --hidden 1536 --seed 1
+--phase P4 --data multi --backbone efficientnet_b0 --head linear --seed 1
+--phase P4 --data multi --backbone efficientnet_b0 --head kan --kan-base off --seed 1
+--phase P4 --data multi --backbone efficientnet_b0 --head kan --seed 2
+--phase P4 --data multi --backbone efficientnet_b0 --head mlp --seed 2
+--phase P4 --data multi --backbone efficientnet_b0 --head mlp --hidden 1536 --seed 2
+--phase P4 --data multi --backbone efficientnet_b0 --head linear --seed 2
+--phase P4 --data multi --backbone efficientnet_b0 --head kan --kan-base off --seed 2
+
+# D. Less training data: 25% and 50% of the training photos (whole near-duplicate groups; val and test unchanged)
+--phase P4 --data multi --train-frac 0.25 --head kan --seed 0
+--phase P4 --data multi --train-frac 0.25 --head mlp --seed 0
+--phase P4 --data multi --train-frac 0.25 --head kan --kan-base off --seed 0
+--phase P4 --data multi --train-frac 0.25 --head kan --seed 1
+--phase P4 --data multi --train-frac 0.25 --head mlp --seed 1
+--phase P4 --data multi --train-frac 0.25 --head kan --kan-base off --seed 1
+--phase P4 --data multi --train-frac 0.25 --head kan --seed 2
+--phase P4 --data multi --train-frac 0.25 --head mlp --seed 2
+--phase P4 --data multi --train-frac 0.25 --head kan --kan-base off --seed 2
+--phase P4 --data multi --train-frac 0.5 --head kan --seed 0
+--phase P4 --data multi --train-frac 0.5 --head mlp --seed 0
+--phase P4 --data multi --train-frac 0.5 --head kan --kan-base off --seed 0
+--phase P4 --data multi --train-frac 0.5 --head kan --seed 1
+--phase P4 --data multi --train-frac 0.5 --head mlp --seed 1
+--phase P4 --data multi --train-frac 0.5 --head kan --kan-base off --seed 1
+--phase P4 --data multi --train-frac 0.5 --head kan --seed 2
+--phase P4 --data multi --train-frac 0.5 --head mlp --seed 2
+--phase P4 --data multi --train-frac 0.5 --head kan --kan-base off --seed 2
+
+# E. Leakage check: photo-level random splits that ignore near-duplicates (the GP way). GP KAN head and the MLP.
+--phase P4 --data base --split random --head kan --norm none --seed 0
+--phase P4 --data base --split random --head mlp --seed 0
+--phase P4 --data base --split random --head kan --norm none --seed 1
+--phase P4 --data base --split random --head mlp --seed 1
+--phase P4 --data base --split random --head kan --norm none --seed 2
+--phase P4 --data base --split random --head mlp --seed 2
+--phase P4 --data multi --split random --head kan --norm none --seed 0
+--phase P4 --data multi --split random --head mlp --seed 0
+--phase P4 --data multi --split random --head kan --norm none --seed 1
+--phase P4 --data multi --split random --head mlp --seed 1
+--phase P4 --data multi --split random --head kan --norm none --seed 2
+--phase P4 --data multi --split random --head mlp --seed 2
+
+# F. Figures and speed. bench_speed waits until the other workers are done, so the GPU is free.
+@kan_curves.py
+@gradcam.py
+@bench_speed.py --wait

@@ -1,0 +1,9 @@
+fold,split,true,pred,count
+0,test,Bacteria Blight Infected,Bacteria Blight Infected,254
+0,test,Bacteria Blight Infected,Healthy Leaf,45
+0,test,Healthy Leaf,Bacteria Blight Infected,167
+0,test,Healthy Leaf,Healthy Leaf,132
+1,test,Bacteria Blight Infected,Bacteria Blight Infected,210
+1,test,Bacteria Blight Infected,Healthy Leaf,22
+1,test,Healthy Leaf,Bacteria Blight Infected,110
+1,test,Healthy Leaf,Healthy Leaf,106

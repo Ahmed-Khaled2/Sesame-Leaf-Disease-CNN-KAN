@@ -1,0 +1,46 @@
+fold,split,true,pred,count
+0,test,Bacteria Blight Infected,Bacteria Blight Infected,45
+0,test,Bacteria Blight Infected,Healthy Leaf,1
+0,test,Bacteria Blight Infected,Phyllody Infected,1
+0,test,Healthy Leaf,Bacteria Blight Infected,1
+0,test,Healthy Leaf,Healthy Leaf,41
+0,test,Healthy Leaf,Phyllody Infected,1
+0,test,Phyllody Infected,Bacteria Blight Infected,1
+0,test,Phyllody Infected,Healthy Leaf,1
+0,test,Phyllody Infected,Phyllody Infected,19
+1,test,Bacteria Blight Infected,Bacteria Blight Infected,46
+1,test,Bacteria Blight Infected,Healthy Leaf,1
+1,test,Bacteria Blight Infected,Phyllody Infected,0
+1,test,Healthy Leaf,Bacteria Blight Infected,0
+1,test,Healthy Leaf,Healthy Leaf,43
+1,test,Healthy Leaf,Phyllody Infected,0
+1,test,Phyllody Infected,Bacteria Blight Infected,0
+1,test,Phyllody Infected,Healthy Leaf,0
+1,test,Phyllody Infected,Phyllody Infected,21
+2,test,Bacteria Blight Infected,Bacteria Blight Infected,41
+2,test,Bacteria Blight Infected,Healthy Leaf,4
+2,test,Bacteria Blight Infected,Phyllody Infected,1
+2,test,Healthy Leaf,Bacteria Blight Infected,0
+2,test,Healthy Leaf,Healthy Leaf,43
+2,test,Healthy Leaf,Phyllody Infected,1
+2,test,Phyllody Infected,Bacteria Blight Infected,0
+2,test,Phyllody Infected,Healthy Leaf,0
+2,test,Phyllody Infected,Phyllody Infected,21
+3,test,Bacteria Blight Infected,Bacteria Blight Infected,44
+3,test,Bacteria Blight Infected,Healthy Leaf,2
+3,test,Bacteria Blight Infected,Phyllody Infected,0
+3,test,Healthy Leaf,Bacteria Blight Infected,1
+3,test,Healthy Leaf,Healthy Leaf,41
+3,test,Healthy Leaf,Phyllody Infected,1
+3,test,Phyllody Infected,Bacteria Blight Infected,0
+3,test,Phyllody Infected,Healthy Leaf,1
+3,test,Phyllody Infected,Phyllody Infected,21
+4,test,Bacteria Blight Infected,Bacteria Blight Infected,46
+4,test,Bacteria Blight Infected,Healthy Leaf,1
+4,test,Bacteria Blight Infected,Phyllody Infected,0
+4,test,Healthy Leaf,Bacteria Blight Infected,2
+4,test,Healthy Leaf,Healthy Leaf,39
+4,test,Healthy Leaf,Phyllody Infected,2
+4,test,Phyllody Infected,Bacteria Blight Infected,0
+4,test,Phyllody Infected,Healthy Leaf,0
+4,test,Phyllody Infected,Phyllody Infected,21

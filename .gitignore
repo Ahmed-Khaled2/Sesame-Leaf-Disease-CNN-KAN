@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Model weights and files that are large or made again from the images
+*.pth
+*.pt
+outputs/metadata/features.npz
+outputs/metadata/metadata.xlsx
+outputs/metadata/review/
+outputs/runs/*/weights/
+outputs/runs/*/predictions.csv
+outputs/runs/*/sampling.csv
+outputs/runs/*/console_log.txt
+outputs/runs/*/curves.png
+outputs/queue_logs/
+
+# Grad-CAM pictures show dataset photos, some of which may not be shared
+outputs/figures/gradcam_*.png
+
+paper_figures/out/

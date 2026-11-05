@@ -1,0 +1,19 @@
+# Phase 2 - head tuning on SesameMulti, layer4 unfrozen, seed 0. Equal budget: 8 KAN + 8 MLP configs.
+# Decided on VALIDATION scores only. Run this AFTER phase 1 (if phase 1 picks another backbone,
+# add --backbone ... to every line).
+--phase P2 --data multi --head kan --hidden 64 --grid 5 --order 3 --seed 0
+--phase P2 --data multi --head kan --hidden 64 --grid 5 --order 5 --seed 0
+--phase P2 --data multi --head kan --hidden 128 --grid 5 --order 3 --seed 0
+--phase P2 --data multi --head kan --hidden 128 --grid 5 --order 5 --seed 0
+--phase P2 --data multi --head kan --hidden 256 --grid 5 --order 3 --seed 0
+--phase P2 --data multi --head kan --hidden 256 --grid 5 --order 5 --seed 0
+--phase P2 --data multi --head kan --hidden 128 --grid 10 --order 3 --seed 0
+--phase P2 --data multi --head kan --hidden 128 --grid 10 --order 5 --seed 0
+--phase P2 --data multi --head mlp --hidden 64 --dropout 0.2 --seed 0
+--phase P2 --data multi --head mlp --hidden 64 --dropout 0.4 --seed 0
+--phase P2 --data multi --head mlp --hidden 128 --dropout 0.2 --seed 0
+--phase P2 --data multi --head mlp --hidden 128 --dropout 0.4 --seed 0
+--phase P2 --data multi --head mlp --hidden 256 --dropout 0.2 --seed 0
+--phase P2 --data multi --head mlp --hidden 256 --dropout 0.4 --seed 0
+--phase P2 --data multi --head mlp --hidden 512 --dropout 0.2 --seed 0
+--phase P2 --data multi --head mlp --hidden 512 --dropout 0.4 --seed 0

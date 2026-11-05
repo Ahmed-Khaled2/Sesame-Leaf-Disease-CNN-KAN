@@ -1,0 +1,21 @@
+fold,split,true,pred,count
+0,test,Bacteria Blight Infected,Bacteria Blight Infected,99
+0,test,Bacteria Blight Infected,Healthy Leaf,7
+0,test,Healthy Leaf,Bacteria Blight Infected,5
+0,test,Healthy Leaf,Healthy Leaf,98
+1,test,Bacteria Blight Infected,Bacteria Blight Infected,100
+1,test,Bacteria Blight Infected,Healthy Leaf,7
+1,test,Healthy Leaf,Bacteria Blight Infected,4
+1,test,Healthy Leaf,Healthy Leaf,99
+2,test,Bacteria Blight Infected,Bacteria Blight Infected,99
+2,test,Bacteria Blight Infected,Healthy Leaf,7
+2,test,Healthy Leaf,Bacteria Blight Infected,5
+2,test,Healthy Leaf,Healthy Leaf,98
+3,test,Bacteria Blight Infected,Bacteria Blight Infected,98
+3,test,Bacteria Blight Infected,Healthy Leaf,8
+3,test,Healthy Leaf,Bacteria Blight Infected,7
+3,test,Healthy Leaf,Healthy Leaf,95
+4,test,Bacteria Blight Infected,Bacteria Blight Infected,100
+4,test,Bacteria Blight Infected,Healthy Leaf,6
+4,test,Healthy Leaf,Bacteria Blight Infected,7
+4,test,Healthy Leaf,Healthy Leaf,97

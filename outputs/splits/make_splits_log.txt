@@ -1,0 +1,96 @@
+======================================================================
+make_splits.py  started 2026-10-08 00:55:40
+Leaving out 4 excluded images (exclude.csv):
+   BB/IMG_0208_jpg.rf.0b139a68e8ee5fa145b120c75682d2dc.jpg  - same photo is also filed under Powdery Mildew (label conflict)
+   BB/IMG_0237_jpg.rf.118845823573c4613768c6353ca127bb.jpg  - same photo is also filed under Powdery Mildew (label conflict)
+   PM/IMG_0208_jpg.rf.496571393b9c09dff75ded25caab00c8.jpg  - same photo is also filed under Bacterial Blight (label conflict)
+   PM/IMG_0237_jpg.rf.20d007e65aac4bc4d9c89ff2965a1e8d.jpg  - same photo is also filed under Bacterial Blight (label conflict)
+metadata: 1793 rows, fingerprint of metadata.csv = 550db0bf0e559188f1dafcc073e0b720
+[multi] real images: 1606  synthetic: 186  groups: 1422
+[multi] checks passed: 23/23
+[multi] split fingerprint: 76aba954eb7a73502d5de581314e22e3
+[multi] role shares (% of real images) per fold:
+role   test  train   val
+fold                    
+fold0  19.2   65.0  15.8
+fold1  20.7   63.5  15.8
+fold2  20.6   64.4  15.0
+fold3  19.6   64.3  16.1
+fold4  19.8   64.3  15.9
+[base] real images: 555  synthetic: 0  groups: 527
+[base] checks passed: 22/22
+[base] split fingerprint: b2bf6a40e74e43cabd6a19aa16d409fd
+[base] role shares (% of real images) per fold:
+role   test  train   val
+fold                    
+fold0  16.8   66.7  16.6
+fold1  20.0   64.1  15.9
+fold2  19.8   64.3  15.9
+fold3  23.4   61.1  15.5
+fold4  20.0   64.1  15.9
+Saved: D:\Desktop\college\3 Year Three\Everything GP related\Journal Rerun\outputs\splits\splits.xlsx
+Done
+======================================================================
+make_splits.py  started 2026-10-08 01:09:25
+Leaving out 4 excluded images (exclude.csv):
+   BB/IMG_0208_jpg.rf.0b139a68e8ee5fa145b120c75682d2dc.jpg  - same photo is also filed under Powdery Mildew (label conflict)
+   BB/IMG_0237_jpg.rf.118845823573c4613768c6353ca127bb.jpg  - same photo is also filed under Powdery Mildew (label conflict)
+   PM/IMG_0208_jpg.rf.496571393b9c09dff75ded25caab00c8.jpg  - same photo is also filed under Bacterial Blight (label conflict)
+   PM/IMG_0237_jpg.rf.20d007e65aac4bc4d9c89ff2965a1e8d.jpg  - same photo is also filed under Bacterial Blight (label conflict)
+metadata: 1793 rows, fingerprint of metadata.csv = 550db0bf0e559188f1dafcc073e0b720
+[multi] real images: 1606  synthetic: 186  groups: 1422
+[multi] checks passed: 23/23
+[multi] split fingerprint: 598f0ecb9f66be7dd4037ad434c7e4a8
+[multi] role shares (% of real images) per fold:
+role   test  train   val
+fold                    
+fold0  20.0   64.0  16.0
+fold1  20.0   63.9  16.0
+fold2  20.0   64.0  16.0
+fold3  20.0   64.0  16.0
+fold4  20.0   64.0  16.0
+[base] real images: 555  synthetic: 0  groups: 527
+[base] checks passed: 22/22
+[base] split fingerprint: c163a53bd9a809391083ad5d878c905b
+[base] role shares (% of real images) per fold:
+role   test  train   val
+fold                    
+fold0  20.0   64.0  16.0
+fold1  20.0   64.0  16.0
+fold2  20.0   64.1  15.9
+fold3  20.0   64.0  16.0
+fold4  20.0   64.0  16.0
+Saved: D:\Desktop\college\3 Year Three\Everything GP related\Journal Rerun\outputs\splits\splits.xlsx
+Done
+======================================================================
+make_splits.py  started 2026-10-08 01:14:22
+Leaving out 4 excluded images (exclude.csv):
+   BB/IMG_0208_jpg.rf.0b139a68e8ee5fa145b120c75682d2dc.jpg  - same photo is also filed under Powdery Mildew (label conflict)
+   BB/IMG_0237_jpg.rf.118845823573c4613768c6353ca127bb.jpg  - same photo is also filed under Powdery Mildew (label conflict)
+   PM/IMG_0208_jpg.rf.496571393b9c09dff75ded25caab00c8.jpg  - same photo is also filed under Bacterial Blight (label conflict)
+   PM/IMG_0237_jpg.rf.20d007e65aac4bc4d9c89ff2965a1e8d.jpg  - same photo is also filed under Bacterial Blight (label conflict)
+metadata: 1793 rows, fingerprint of metadata.csv = 550db0bf0e559188f1dafcc073e0b720
+[multi] real images: 1606  synthetic: 186  groups: 1422
+[multi] checks passed: 23/23
+[multi] split fingerprint: 1aae4d6d7bc91218fe15cb0e979eb281
+[multi] role shares (% of real images) per fold:
+role   test  train   val
+fold                    
+fold0  20.0   64.0  16.0
+fold1  20.0   63.9  16.0
+fold2  20.0   64.0  16.0
+fold3  20.0   64.0  16.0
+fold4  20.0   64.0  16.0
+[base] real images: 555  synthetic: 0  groups: 527
+[base] checks passed: 22/22
+[base] split fingerprint: 412c250cae39579eaacedba3ab5778d6
+[base] role shares (% of real images) per fold:
+role   test  train   val
+fold                    
+fold0  20.0   64.0  16.0
+fold1  20.0   64.0  16.0
+fold2  20.0   64.1  15.9
+fold3  20.0   64.0  16.0
+fold4  20.0   64.0  16.0
+Saved: D:\Desktop\college\3 Year Three\Everything GP related\Journal Rerun\outputs\splits\splits.xlsx
+Done

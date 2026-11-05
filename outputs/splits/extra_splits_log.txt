@@ -1,0 +1,12 @@
+======================================================================
+make_extra_splits.py  started 2026-10-09 07:01:21
+source files: splits_multi.csv fingerprint 1aae4d6d7bc91218fe15cb0e979eb281, splits_base.csv fingerprint 412c250cae39579eaacedba3ab5778d6
+[multi_random] test photos with a near-duplicate in train/val, per fold: [53, 46, 50, 48, 50] (of about 321 test photos per fold)
+[base_random] test photos with a near-duplicate in train/val, per fold: [7, 8, 5, 7, 8] (of about 111 test photos per fold)
+[bbhl_cross] fold0: train/val = ERFD, test = MSLD; test photos left out because a near-duplicate is in ERFD: 0
+[bbhl_cross] fold1: train/val = MSLD, test = ERFD; test photos left out because a near-duplicate is in MSLD: 0
+[multi_random] 1792 rows, checks passed 18/18, fingerprint aa9e9a473152b5f5fa31122710efa9df
+[base_random] 555 rows, checks passed 17/17, fingerprint 159921cba212c1018ad9c723df4f5ad4
+[bbhl_cross] 1046 rows, checks passed 11/11, fingerprint e6953f5efa24e6a5a62b248f5e284a36
+[bbhl_mixed] 1046 rows, checks passed 22/22, fingerprint 7d0d4cdfa62b411d8cae3f02a65fd658
+Done

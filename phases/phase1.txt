@@ -1,0 +1,18 @@
+# Phase 1 - design choices on SesameBase, frozen backbone, seed 0 (redo of Tables III and IV).
+# Decided on VALIDATION scores only. Default heads: KAN h128 g5 o5 / MLP h128, dropout 0.2.
+# Preprocessing trials A-D, both heads:
+--phase P1 --data base --preproc A --head kan --unfreeze none --seed 0
+--phase P1 --data base --preproc A --head mlp --unfreeze none --seed 0
+--phase P1 --data base --preproc B --head kan --unfreeze none --seed 0
+--phase P1 --data base --preproc B --head mlp --unfreeze none --seed 0
+--phase P1 --data base --preproc C --head kan --unfreeze none --seed 0
+--phase P1 --data base --preproc C --head mlp --unfreeze none --seed 0
+--phase P1 --data base --preproc D --head kan --unfreeze none --seed 0
+--phase P1 --data base --preproc D --head mlp --unfreeze none --seed 0
+# Backbones (trial A), both heads. ResNet50 + trial A is already in the list above.
+--phase P1 --data base --backbone resnet18 --head kan --unfreeze none --seed 0
+--phase P1 --data base --backbone resnet18 --head mlp --unfreeze none --seed 0
+--phase P1 --data base --backbone resnet34 --head kan --unfreeze none --seed 0
+--phase P1 --data base --backbone resnet34 --head mlp --unfreeze none --seed 0
+--phase P1 --data base --backbone resnet101 --head kan --unfreeze none --seed 0
+--phase P1 --data base --backbone resnet101 --head mlp --unfreeze none --seed 0

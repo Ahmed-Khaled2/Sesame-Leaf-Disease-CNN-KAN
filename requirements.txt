@@ -1,0 +1,20 @@
+# Install PyTorch for your system first (https://pytorch.org). We used torch 2.9.0 and torchvision 0.24.0 with CUDA 13.0.
+torch>=2.3
+torchvision>=0.18
+
+# Versions we used are pinned where they were recorded in the run logs.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+openpyxl==3.1.5
+matplotlib
+pillow
+efficient-kan @ git+https://github.com/Blealtan/efficient-kan.git
+
+# Optional: MACs per image in train.py and bench_speed.py
+thop
+
+# Only for the scripts in paper_figures/
+seaborn
+umap-learn

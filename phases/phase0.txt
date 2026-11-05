@@ -1,0 +1,2 @@
+# Phase 0 - one fold, to check everything works on your GPU and to measure the time per fold.
+--phase P0 --data multi --head kan --seed 0 --folds 0

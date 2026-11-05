@@ -1,0 +1,69 @@
+# Phase 3 - the final comparison (these numbers go in the paper). 3 seeds x 5 folds = 15 test folds per setting.
+# Settings fixed from phases 1-2: ResNet50, Trial A, KAN h128 g5 o5, MLP h128 dropout 0.2 (the GP settings;
+# phase 2 showed every head setting within one standard error of the best, so the originals were kept).
+# Lines are in priority order: if you must stop early, the most important runs are done first.
+# Weights are saved only for seed 0 KAN/MLP on base and multi (for the interpretability figures later, ~2 GB).
+
+# A. SesameMulti, layer4 unfrozen: KAN vs MLP vs size-matched MLP (1536) vs linear vs spline-only KAN
+--phase P3 --data multi --head kan --seed 0 --save-weights best
+--phase P3 --data multi --head mlp --seed 0 --save-weights best
+--phase P3 --data multi --head mlp --hidden 1536 --seed 0
+--phase P3 --data multi --head linear --seed 0
+--phase P3 --data multi --head kan --kan-base off --seed 0
+--phase P3 --data multi --head kan --seed 1
+--phase P3 --data multi --head mlp --seed 1
+--phase P3 --data multi --head mlp --hidden 1536 --seed 1
+--phase P3 --data multi --head linear --seed 1
+--phase P3 --data multi --head kan --kan-base off --seed 1
+--phase P3 --data multi --head kan --seed 2
+--phase P3 --data multi --head mlp --seed 2
+--phase P3 --data multi --head mlp --hidden 1536 --seed 2
+--phase P3 --data multi --head linear --seed 2
+--phase P3 --data multi --head kan --kan-base off --seed 2
+
+# B. SesameBase (the GP dataset), same 5 heads
+--phase P3 --data base --head kan --seed 0 --save-weights best
+--phase P3 --data base --head mlp --seed 0 --save-weights best
+--phase P3 --data base --head mlp --hidden 1536 --seed 0
+--phase P3 --data base --head linear --seed 0
+--phase P3 --data base --head kan --kan-base off --seed 0
+--phase P3 --data base --head kan --seed 1
+--phase P3 --data base --head mlp --seed 1
+--phase P3 --data base --head mlp --hidden 1536 --seed 1
+--phase P3 --data base --head linear --seed 1
+--phase P3 --data base --head kan --kan-base off --seed 1
+--phase P3 --data base --head kan --seed 2
+--phase P3 --data base --head mlp --seed 2
+--phase P3 --data base --head mlp --hidden 1536 --seed 2
+--phase P3 --data base --head linear --seed 2
+--phase P3 --data base --head kan --kan-base off --seed 2
+
+# C. SesameMulti + synthetic images (train only): does synthetic data help?
+--phase P3 --data multi_syn --head kan --seed 0
+--phase P3 --data multi_syn --head mlp --seed 0
+--phase P3 --data multi_syn --head kan --seed 1
+--phase P3 --data multi_syn --head mlp --seed 1
+--phase P3 --data multi_syn --head kan --seed 2
+--phase P3 --data multi_syn --head mlp --seed 2
+
+# D. Original GP KAN head (no LayerNorm): what the LayerNorm fix changes
+--phase P3 --data multi --head kan --norm none --seed 0
+--phase P3 --data base --head kan --norm none --seed 0
+--phase P3 --data multi --head kan --norm none --seed 1
+--phase P3 --data base --head kan --norm none --seed 1
+--phase P3 --data multi --head kan --norm none --seed 2
+--phase P3 --data base --head kan --norm none --seed 2
+
+# E. Frozen backbone: KAN vs MLP when the head does all the learning
+--phase P3 --data multi --head kan --unfreeze none --seed 0
+--phase P3 --data multi --head mlp --unfreeze none --seed 0
+--phase P3 --data base --head kan --unfreeze none --seed 0
+--phase P3 --data base --head mlp --unfreeze none --seed 0
+--phase P3 --data multi --head kan --unfreeze none --seed 1
+--phase P3 --data multi --head mlp --unfreeze none --seed 1
+--phase P3 --data base --head kan --unfreeze none --seed 1
+--phase P3 --data base --head mlp --unfreeze none --seed 1
+--phase P3 --data multi --head kan --unfreeze none --seed 2
+--phase P3 --data multi --head mlp --unfreeze none --seed 2
+--phase P3 --data base --head kan --unfreeze none --seed 2
+--phase P3 --data base --head mlp --unfreeze none --seed 2

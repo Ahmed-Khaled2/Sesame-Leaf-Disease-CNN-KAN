@@ -1,0 +1,81 @@
+fold,split,true,pred,count
+0,test,Bacteria Blight Infected,Bacteria Blight Infected,146
+0,test,Bacteria Blight Infected,Healthy Leaf,12
+0,test,Bacteria Blight Infected,Phyllody Infected,0
+0,test,Bacteria Blight Infected,Powdery Mildew,7
+0,test,Healthy Leaf,Bacteria Blight Infected,9
+0,test,Healthy Leaf,Healthy Leaf,92
+0,test,Healthy Leaf,Phyllody Infected,2
+0,test,Healthy Leaf,Powdery Mildew,0
+0,test,Phyllody Infected,Bacteria Blight Infected,0
+0,test,Phyllody Infected,Healthy Leaf,1
+0,test,Phyllody Infected,Phyllody Infected,20
+0,test,Phyllody Infected,Powdery Mildew,0
+0,test,Powdery Mildew,Bacteria Blight Infected,2
+0,test,Powdery Mildew,Healthy Leaf,0
+0,test,Powdery Mildew,Phyllody Infected,0
+0,test,Powdery Mildew,Powdery Mildew,30
+1,test,Bacteria Blight Infected,Bacteria Blight Infected,144
+1,test,Bacteria Blight Infected,Healthy Leaf,16
+1,test,Bacteria Blight Infected,Phyllody Infected,3
+1,test,Bacteria Blight Infected,Powdery Mildew,3
+1,test,Healthy Leaf,Bacteria Blight Infected,6
+1,test,Healthy Leaf,Healthy Leaf,95
+1,test,Healthy Leaf,Phyllody Infected,2
+1,test,Healthy Leaf,Powdery Mildew,0
+1,test,Phyllody Infected,Bacteria Blight Infected,0
+1,test,Phyllody Infected,Healthy Leaf,0
+1,test,Phyllody Infected,Phyllody Infected,21
+1,test,Phyllody Infected,Powdery Mildew,0
+1,test,Powdery Mildew,Bacteria Blight Infected,2
+1,test,Powdery Mildew,Healthy Leaf,0
+1,test,Powdery Mildew,Phyllody Infected,0
+1,test,Powdery Mildew,Powdery Mildew,30
+2,test,Bacteria Blight Infected,Bacteria Blight Infected,141
+2,test,Bacteria Blight Infected,Healthy Leaf,13
+2,test,Bacteria Blight Infected,Phyllody Infected,5
+2,test,Bacteria Blight Infected,Powdery Mildew,7
+2,test,Healthy Leaf,Bacteria Blight Infected,5
+2,test,Healthy Leaf,Healthy Leaf,97
+2,test,Healthy Leaf,Phyllody Infected,1
+2,test,Healthy Leaf,Powdery Mildew,0
+2,test,Phyllody Infected,Bacteria Blight Infected,0
+2,test,Phyllody Infected,Healthy Leaf,1
+2,test,Phyllody Infected,Phyllody Infected,20
+2,test,Phyllody Infected,Powdery Mildew,0
+2,test,Powdery Mildew,Bacteria Blight Infected,6
+2,test,Powdery Mildew,Healthy Leaf,0
+2,test,Powdery Mildew,Phyllody Infected,0
+2,test,Powdery Mildew,Powdery Mildew,25
+3,test,Bacteria Blight Infected,Bacteria Blight Infected,155
+3,test,Bacteria Blight Infected,Healthy Leaf,6
+3,test,Bacteria Blight Infected,Phyllody Infected,0
+3,test,Bacteria Blight Infected,Powdery Mildew,4
+3,test,Healthy Leaf,Bacteria Blight Infected,3
+3,test,Healthy Leaf,Healthy Leaf,99
+3,test,Healthy Leaf,Phyllody Infected,0
+3,test,Healthy Leaf,Powdery Mildew,0
+3,test,Phyllody Infected,Bacteria Blight Infected,1
+3,test,Phyllody Infected,Healthy Leaf,1
+3,test,Phyllody Infected,Phyllody Infected,20
+3,test,Phyllody Infected,Powdery Mildew,0
+3,test,Powdery Mildew,Bacteria Blight Infected,5
+3,test,Powdery Mildew,Healthy Leaf,0
+3,test,Powdery Mildew,Phyllody Infected,0
+3,test,Powdery Mildew,Powdery Mildew,27
+4,test,Bacteria Blight Infected,Bacteria Blight Infected,143
+4,test,Bacteria Blight Infected,Healthy Leaf,13
+4,test,Bacteria Blight Infected,Phyllody Infected,2
+4,test,Bacteria Blight Infected,Powdery Mildew,7
+4,test,Healthy Leaf,Bacteria Blight Infected,2
+4,test,Healthy Leaf,Healthy Leaf,100
+4,test,Healthy Leaf,Phyllody Infected,2
+4,test,Healthy Leaf,Powdery Mildew,0
+4,test,Phyllody Infected,Bacteria Blight Infected,1
+4,test,Phyllody Infected,Healthy Leaf,0
+4,test,Phyllody Infected,Phyllody Infected,20
+4,test,Phyllody Infected,Powdery Mildew,0
+4,test,Powdery Mildew,Bacteria Blight Infected,6
+4,test,Powdery Mildew,Healthy Leaf,0
+4,test,Powdery Mildew,Phyllody Infected,0
+4,test,Powdery Mildew,Powdery Mildew,25

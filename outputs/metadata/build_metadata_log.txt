@@ -1,0 +1,126 @@
+======================================================================
+build_metadata.py  started 2026-10-08 00:31:48
+build_metadata.py  started 2026-10-08 00:31:48
+GP folder: D:\Desktop\college\3 Year Three\Everything GP related
+GP folder: D:\Desktop\college\3 Year Three\Everything GP related
+Settings: copy_cos=0.97, copy_phash=6, burst_seconds=60, burst_seq=3, burst_cos=0.9, pair_cos=0.9, pair_phash=12, batch=32, device=auto, recompute=False, no_review=False
+  MSLD composites with their original lab photo found: 598/598
+  MSLD composites with their original lab photo found: 598/598
+Images found: 1797
+Images found: 1797
+  SesameMulti real : 1610
+  SesameMulti real : 1610
+  Synthetic        : 186
+  Synthetic        : 186
+  SesameBase       : 555
+Feature extractor: ResNet50 (ImageNet weights) on cuda
+  features (training images): 200/1797
+  features (training images): 200/1797
+  features (training images): 400/1797
+  features (training images): 400/1797
+  features (training images): 600/1797
+  features (training images): 600/1797
+  features (training images): 800/1797
+  features (training images): 800/1797
+  features (training images): 1000/1797
+  features (training images): 1000/1797
+  features (training images): 1200/1797
+  features (training images): 1200/1797
+  features (training images): 1400/1797
+  features (training images): 1400/1797
+  features (training images): 1600/1797
+  features (training images): 1600/1797
+  features (training images): 1797/1797
+Feature extractor: ResNet50 (ImageNet weights) on cuda
+  features (training images): 1797/1797
+Feature extractor: ResNet50 (ImageNet weights) on cuda
+  features (MSLD lab photos): 200/598
+  features (MSLD lab photos): 200/598
+  features (MSLD lab photos): 400/598
+  features (MSLD lab photos): 400/598
+  features (MSLD lab photos): 598/598
+  features (MSLD lab photos): 598/598
+Candidate pairs checked: 59125 | linked: copy=401, burst=551
+Real images: 1611 -> 1011 groups (710 images share a group with another image)
+  check | exact duplicate files (same md5): 0
+  check | linked pairs across DIFFERENT classes (label conflict?): 80
+  check | groups containing more than one class: 8
+  check | largest group size: 374
+  check | synthetic images whose nearest REAL image has cos >= copy threshold: 0
+  check | synthetic max cos to any real image: 0.9414
+  check | images with unknown source: 0
+Candidate pairs checked: 59125 | linked: copy=401, burst=551
+Real images: 1611 -> 1011 groups (710 images share a group with another image)
+  check | exact duplicate files (same md5): 0
+  check | linked pairs across DIFFERENT classes (label conflict?): 80
+  check | groups containing more than one class: 8
+  check | largest group size: 374
+  check | synthetic images whose nearest REAL image has cos >= copy threshold: 0
+  check | synthetic max cos to any real image: 0.9414
+  check | images with unknown source: 0
+Saved: D:\Desktop\college\3 Year Three\Everything GP related\Journal Rerun\outputs\metadata\metadata.csv
+Saved: D:\Desktop\college\3 Year Three\Everything GP related\Journal Rerun\outputs\metadata\metadata.xlsx
+Saved: D:\Desktop\college\3 Year Three\Everything GP related\Journal Rerun\outputs\metadata\metadata.csv
+Saved: D:\Desktop\college\3 Year Three\Everything GP related\Journal Rerun\outputs\metadata\metadata.xlsx
+  review sheet: pairs_cos_99_100.png
+  review sheet: pairs_cos_98_99.png
+  review sheet: pairs_cos_98_99.png
+  review sheet: pairs_cos_97_98.png
+  review sheet: pairs_cos_97_98.png
+  review sheet: pairs_cos_96_97.png
+  review sheet: pairs_cos_96_97.png
+  review sheet: pairs_cos_94_96.png
+  review sheet: pairs_cos_94_96.png
+  review sheet: pairs_cos_92_94.png
+  review sheet: pairs_cos_92_94.png
+  review sheet: pairs_cos_90_92.png
+  review sheet: pairs_cos_90_92.png
+  review sheet: linked_burst_sample.png
+  review sheet: linked_burst_sample.png
+  review sheet: time_close_not_linked.png
+  review sheet: time_close_not_linked.png
+  review sheet: most_similar_not_linked.png
+  review sheet: cross_class_links.png
+  review sheet: cross_class_links.png
+  review sheet: largest_groups.png
+  review sheet: largest_groups.png
+  review sheet: synthetic_vs_real.png
+  review sheet: synthetic_vs_real.png
+Done 2026-10-08 00:33:56
+Done 2026-10-08 00:33:56
+======================================================================
+build_metadata.py  started 2026-10-08 00:50:03
+GP folder: D:\Desktop\college\3 Year Three\Everything GP related
+Settings: copy_cos=0.97, copy_phash=6, burst_seconds=60, burst_seq=3, copy_phash_cos=0.95, burst_cos=0.9, burst_cos_lab=0.95, pair_cos=0.9, pair_phash=12, batch=32, device=auto, recompute=False, no_review=False
+  MSLD composites with their original lab photo found: 598/598
+Images found: 1797
+  SesameMulti real : 1610
+  Synthetic        : 186
+  SesameBase       : 555
+  excluded by exclude.csv: 4 images
+Re-using saved features.npz (use --recompute to rebuild)
+Candidate pairs checked: 59131 | linked: copy=43, burst=219
+Real images: 1607 -> 1423 groups (277 images share a group with another image)
+  check | exact duplicate files (same md5): 0
+  check | linked pairs across DIFFERENT classes (label conflict?): 0
+  check | groups containing more than one class: 0
+  check | largest group size: 19
+  check | largest share of one class inside one group (should stay small, e.g. < 3%): 7.0%
+  check | images excluded by exclude.csv: 4
+  check | synthetic images whose nearest REAL image has cos >= copy threshold: 0
+  check | synthetic max cos to any real image: 0.9414
+  check | images with unknown source: 0
+Saved: D:\Desktop\college\3 Year Three\Everything GP related\Journal Rerun\outputs\metadata\metadata.csv
+Saved: D:\Desktop\college\3 Year Three\Everything GP related\Journal Rerun\outputs\metadata\metadata.xlsx
+  review sheet: pairs_cos_98_99.png
+  review sheet: pairs_cos_97_98.png
+  review sheet: pairs_cos_96_97.png
+  review sheet: pairs_cos_94_96.png
+  review sheet: pairs_cos_92_94.png
+  review sheet: pairs_cos_90_92.png
+  review sheet: linked_burst_sample.png
+  review sheet: time_close_not_linked.png
+  review sheet: most_similar_not_linked.png
+  review sheet: largest_groups.png
+  review sheet: synthetic_vs_real.png
+Done 2026-10-08 00:50:30

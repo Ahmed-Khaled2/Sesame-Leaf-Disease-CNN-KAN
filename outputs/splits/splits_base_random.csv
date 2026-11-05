@@ -1,0 +1,556 @@
+uid,cls,source,group_id,is_synthetic,file,fold0,fold1,fold2,fold3,fold4
+BB/00001.jpg,Bacteria Blight Infected,ERFD,G0094,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00001.jpg,test,train,val,train,train
+BB/00002.jpg,Bacteria Blight Infected,ERFD,G0095,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00002.jpg,train,test,train,train,val
+BB/00003.jpg,Bacteria Blight Infected,ERFD,G0096,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00003.jpg,train,train,train,train,test
+BB/00004.jpg,Bacteria Blight Infected,ERFD,G0097,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00004.jpg,train,train,test,train,train
+BB/00005.jpg,Bacteria Blight Infected,ERFD,G0098,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00005.jpg,train,val,test,train,train
+BB/00006.jpg,Bacteria Blight Infected,ERFD,G0099,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00006.jpg,train,val,train,train,test
+BB/00007.jpg,Bacteria Blight Infected,ERFD,G0100,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00007.jpg,train,train,test,train,train
+BB/00008.jpg,Bacteria Blight Infected,ERFD,G0101,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00008.jpg,train,test,train,train,train
+BB/00009.jpg,Bacteria Blight Infected,ERFD,G0102,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00009.jpg,train,train,test,train,train
+BB/00010.jpg,Bacteria Blight Infected,ERFD,G0103,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00010.jpg,train,test,train,val,train
+BB/00013.jpg,Bacteria Blight Infected,ERFD,G0104,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00013.jpg,val,train,train,train,test
+BB/00014.jpg,Bacteria Blight Infected,ERFD,G0105,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00014.jpg,train,test,val,train,train
+BB/00015.jpg,Bacteria Blight Infected,ERFD,G0106,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00015.jpg,val,train,train,test,train
+BB/00016.jpg,Bacteria Blight Infected,ERFD,G0107,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00016.jpg,train,train,train,test,train
+BB/00017.jpg,Bacteria Blight Infected,ERFD,G0108,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00017.jpg,train,test,val,train,train
+BB/00018.jpg,Bacteria Blight Infected,ERFD,G0109,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00018.jpg,train,train,test,train,train
+BB/00019.jpg,Bacteria Blight Infected,ERFD,G0110,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00019.jpg,train,test,train,train,val
+BB/00021.jpg,Bacteria Blight Infected,ERFD,G0111,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00021.jpg,train,test,train,train,train
+BB/00022.jpg,Bacteria Blight Infected,ERFD,G0112,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00022.jpg,train,train,train,val,test
+BB/00023.jpg,Bacteria Blight Infected,ERFD,G0113,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00023.jpg,train,test,train,train,val
+BB/00024.jpg,Bacteria Blight Infected,ERFD,G0114,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00024.jpg,train,train,test,train,train
+BB/00025.jpg,Bacteria Blight Infected,ERFD,G0115,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00025.jpg,train,train,train,val,test
+BB/00026.jpg,Bacteria Blight Infected,ERFD,G0116,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00026.jpg,val,val,train,test,train
+BB/00027.jpg,Bacteria Blight Infected,ERFD,G0117,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00027.jpg,train,train,train,test,train
+BB/00028.jpg,Bacteria Blight Infected,ERFD,G0118,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00028.jpg,test,train,val,train,train
+BB/00029.jpg,Bacteria Blight Infected,ERFD,G0119,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00029.jpg,train,train,test,train,val
+BB/00030.jpg,Bacteria Blight Infected,ERFD,G0120,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00030.jpg,train,train,test,train,train
+BB/00031.jpg,Bacteria Blight Infected,ERFD,G0121,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00031.jpg,train,train,val,test,train
+BB/00032.jpg,Bacteria Blight Infected,ERFD,G0122,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00032.jpg,train,test,train,train,val
+BB/00033.jpg,Bacteria Blight Infected,ERFD,G0123,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00033.jpg,train,test,val,train,val
+BB/00034.jpg,Bacteria Blight Infected,ERFD,G0124,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00034.jpg,val,test,train,train,train
+BB/00035.jpg,Bacteria Blight Infected,ERFD,G0125,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00035.jpg,train,test,train,val,train
+BB/00036.jpg,Bacteria Blight Infected,ERFD,G0126,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00036.jpg,train,val,test,train,train
+BB/00037.jpg,Bacteria Blight Infected,ERFD,G0127,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00037.jpg,train,val,train,test,val
+BB/00038.jpg,Bacteria Blight Infected,ERFD,G0128,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00038.jpg,test,train,val,train,train
+BB/00039.jpg,Bacteria Blight Infected,ERFD,G0129,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00039.jpg,test,train,train,val,train
+BB/00040.jpg,Bacteria Blight Infected,ERFD,G0130,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00040.jpg,val,train,train,test,train
+BB/00041.jpg,Bacteria Blight Infected,ERFD,G0131,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00041.jpg,train,test,train,train,train
+BB/00042.jpg,Bacteria Blight Infected,ERFD,G0132,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00042.jpg,train,test,train,val,train
+BB/00043.jpg,Bacteria Blight Infected,ERFD,G0133,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00043.jpg,test,train,train,train,train
+BB/00044.jpg,Bacteria Blight Infected,ERFD,G0134,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00044.jpg,train,train,test,train,train
+BB/00045.jpg,Bacteria Blight Infected,ERFD,G0135,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00045.jpg,train,test,train,train,train
+BB/00046.jpg,Bacteria Blight Infected,ERFD,G0136,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00046.jpg,test,train,train,train,train
+BB/00047.jpg,Bacteria Blight Infected,ERFD,G0137,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00047.jpg,test,train,val,train,train
+BB/00048.jpg,Bacteria Blight Infected,ERFD,G0138,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00048.jpg,train,train,test,train,train
+BB/00051.jpg,Bacteria Blight Infected,ERFD,G0139,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00051.jpg,train,train,test,val,val
+BB/00052.jpg,Bacteria Blight Infected,ERFD,G0140,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00052.jpg,train,train,train,train,test
+BB/00053.jpg,Bacteria Blight Infected,ERFD,G0141,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00053.jpg,test,train,train,train,train
+BB/00054.jpg,Bacteria Blight Infected,ERFD,G0142,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00054.jpg,val,train,val,train,test
+BB/00055.jpg,Bacteria Blight Infected,ERFD,G0143,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00055.jpg,train,train,train,train,test
+BB/00056.jpg,Bacteria Blight Infected,ERFD,G0144,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00056.jpg,train,val,train,train,test
+BB/00057.jpg,Bacteria Blight Infected,ERFD,G0145,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00057.jpg,test,val,train,train,train
+BB/00058.jpg,Bacteria Blight Infected,ERFD,G0146,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00058.jpg,train,train,test,train,val
+BB/00059.jpg,Bacteria Blight Infected,ERFD,G0147,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00059.jpg,train,val,val,test,train
+BB/00060.jpg,Bacteria Blight Infected,ERFD,G0148,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00060.jpg,val,train,train,test,train
+BB/00061.jpg,Bacteria Blight Infected,ERFD,G0149,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00061.jpg,train,val,test,train,val
+BB/00062.jpg,Bacteria Blight Infected,ERFD,G0150,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00062.jpg,train,train,train,train,test
+BB/00063.jpg,Bacteria Blight Infected,ERFD,G0151,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00063.jpg,train,train,test,train,val
+BB/00064.jpg,Bacteria Blight Infected,ERFD,G0152,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00064.jpg,train,test,train,train,train
+BB/00065.jpg,Bacteria Blight Infected,ERFD,G0153,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00065.jpg,train,test,val,val,train
+BB/00066.jpg,Bacteria Blight Infected,ERFD,G0154,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00066.jpg,train,train,train,test,train
+BB/00067.jpg,Bacteria Blight Infected,ERFD,G0155,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00067.jpg,train,train,train,train,test
+BB/00068.jpg,Bacteria Blight Infected,ERFD,G0156,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00068.jpg,train,val,train,train,test
+BB/00069.jpg,Bacteria Blight Infected,ERFD,G0157,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00069.jpg,test,val,train,train,train
+BB/00070.jpg,Bacteria Blight Infected,ERFD,G0158,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00070.jpg,test,train,train,train,train
+BB/00071.jpg,Bacteria Blight Infected,ERFD,G0159,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00071.jpg,train,test,train,train,train
+BB/00072.jpg,Bacteria Blight Infected,ERFD,G0160,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00072.jpg,val,train,val,test,val
+BB/00074.jpg,Bacteria Blight Infected,ERFD,G0161,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00074.jpg,val,train,test,train,train
+BB/00075.jpg,Bacteria Blight Infected,ERFD,G0162,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00075.jpg,train,train,test,train,train
+BB/00076.jpg,Bacteria Blight Infected,ERFD,G0163,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00076.jpg,val,train,test,train,train
+BB/00077.jpg,Bacteria Blight Infected,ERFD,G0164,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00077.jpg,train,train,train,val,test
+BB/00078.jpg,Bacteria Blight Infected,ERFD,G0165,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00078.jpg,train,train,train,test,train
+BB/00079.jpg,Bacteria Blight Infected,ERFD,G0166,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00079.jpg,test,train,train,train,train
+BB/00080.jpg,Bacteria Blight Infected,ERFD,G0167,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00080.jpg,train,val,train,test,train
+BB/00081.jpg,Bacteria Blight Infected,ERFD,G0168,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00081.jpg,train,train,train,val,test
+BB/00082.jpg,Bacteria Blight Infected,ERFD,G0169,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00082.jpg,test,train,train,train,train
+BB/00083.jpg,Bacteria Blight Infected,ERFD,G0170,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00083.jpg,test,train,train,train,train
+BB/00084.jpg,Bacteria Blight Infected,ERFD,G0171,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00084.jpg,train,train,test,train,train
+BB/00085.jpg,Bacteria Blight Infected,ERFD,G0172,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00085.jpg,test,val,train,val,val
+BB/00086.jpg,Bacteria Blight Infected,ERFD,G0173,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00086.jpg,val,train,train,train,test
+BB/00087.jpg,Bacteria Blight Infected,ERFD,G0174,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00087.jpg,train,train,test,train,train
+BB/00088.jpg,Bacteria Blight Infected,ERFD,G0175,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00088.jpg,train,test,train,train,train
+BB/00089.jpg,Bacteria Blight Infected,ERFD,G0176,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00089.jpg,test,val,train,train,train
+BB/00090.jpg,Bacteria Blight Infected,ERFD,G0177,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00090.jpg,train,train,train,test,train
+BB/00091.jpg,Bacteria Blight Infected,ERFD,G0178,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00091.jpg,train,train,train,val,test
+BB/00092.jpg,Bacteria Blight Infected,ERFD,G0179,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00092.jpg,test,val,train,train,train
+BB/00093.jpg,Bacteria Blight Infected,ERFD,G0180,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00093.jpg,val,train,train,val,test
+BB/00094.jpg,Bacteria Blight Infected,ERFD,G0181,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00094.jpg,train,val,train,test,val
+BB/00095.jpg,Bacteria Blight Infected,ERFD,G0182,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00095.jpg,val,train,train,train,test
+BB/00096.jpg,Bacteria Blight Infected,ERFD,G0183,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00096.jpg,train,train,train,train,test
+BB/00097.jpg,Bacteria Blight Infected,ERFD,G0184,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00097.jpg,train,val,test,train,val
+BB/00098.jpg,Bacteria Blight Infected,ERFD,G0185,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00098.jpg,test,train,val,train,train
+BB/00099.jpg,Bacteria Blight Infected,ERFD,G0186,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00099.jpg,train,test,train,train,train
+BB/00100.jpg,Bacteria Blight Infected,ERFD,G0187,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00100.jpg,train,test,train,train,val
+BB/00101.jpg,Bacteria Blight Infected,ERFD,G0188,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00101.jpg,train,train,test,train,train
+BB/00102.jpg,Bacteria Blight Infected,ERFD,G0189,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00102.jpg,train,val,test,train,train
+BB/00103.jpg,Bacteria Blight Infected,ERFD,G0190,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00103.jpg,test,train,train,train,val
+BB/00104.jpg,Bacteria Blight Infected,ERFD,G0191,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00104.jpg,val,test,train,train,train
+BB/00105.jpg,Bacteria Blight Infected,ERFD,G0192,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00105.jpg,train,test,train,val,train
+BB/00106.jpg,Bacteria Blight Infected,ERFD,G0193,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00106.jpg,train,test,train,train,train
+BB/00107.jpg,Bacteria Blight Infected,ERFD,G0194,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00107.jpg,test,train,train,val,train
+BB/00108.jpg,Bacteria Blight Infected,ERFD,G0195,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00108.jpg,train,train,test,val,train
+BB/00109.jpg,Bacteria Blight Infected,ERFD,G0196,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00109.jpg,train,train,train,val,test
+BB/00110.jpg,Bacteria Blight Infected,ERFD,G0197,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00110.jpg,val,train,train,test,train
+BB/00111.jpg,Bacteria Blight Infected,ERFD,G0198,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00111.jpg,train,test,train,train,val
+BB/00112.jpg,Bacteria Blight Infected,ERFD,G0199,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00112.jpg,train,train,test,train,train
+BB/00113.jpg,Bacteria Blight Infected,ERFD,G0200,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00113.jpg,test,train,train,val,val
+BB/00115.jpg,Bacteria Blight Infected,ERFD,G0201,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00115.jpg,train,test,train,train,val
+BB/00116.jpg,Bacteria Blight Infected,ERFD,G0202,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00116.jpg,test,train,val,val,train
+BB/00117.jpg,Bacteria Blight Infected,ERFD,G0203,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00117.jpg,val,val,train,test,train
+BB/00118.jpg,Bacteria Blight Infected,ERFD,G0204,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00118.jpg,train,train,val,train,test
+BB/00119.jpg,Bacteria Blight Infected,ERFD,G0205,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00119.jpg,train,val,test,train,train
+BB/00120.jpg,Bacteria Blight Infected,ERFD,G0206,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00120.jpg,train,train,test,train,val
+BB/00121.jpg,Bacteria Blight Infected,ERFD,G0207,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00121.jpg,train,train,train,test,train
+BB/00122.jpg,Bacteria Blight Infected,ERFD,G0208,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00122.jpg,val,train,train,train,test
+BB/00123.jpg,Bacteria Blight Infected,ERFD,G0209,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00123.jpg,train,train,val,test,val
+BB/00124.jpg,Bacteria Blight Infected,ERFD,G0210,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00124.jpg,test,train,val,val,train
+BB/00125.jpg,Bacteria Blight Infected,ERFD,G0211,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00125.jpg,train,train,train,train,test
+BB/00126.jpg,Bacteria Blight Infected,ERFD,G0212,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00126.jpg,test,train,val,train,train
+BB/00127.jpg,Bacteria Blight Infected,ERFD,G0213,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00127.jpg,test,train,train,train,val
+BB/00128.jpg,Bacteria Blight Infected,ERFD,G0025,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00128.jpg,test,train,train,train,train
+BB/00129.jpg,Bacteria Blight Infected,ERFD,G0214,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00129.jpg,train,train,train,val,test
+BB/00130.jpg,Bacteria Blight Infected,ERFD,G0025,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00130.jpg,train,train,train,train,test
+BB/00131.jpg,Bacteria Blight Infected,ERFD,G0215,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00131.jpg,train,train,train,train,test
+BB/00132.jpg,Bacteria Blight Infected,ERFD,G0216,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00132.jpg,train,train,val,test,train
+BB/00133.jpg,Bacteria Blight Infected,ERFD,G0217,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00133.jpg,train,test,val,train,train
+BB/00134.jpg,Bacteria Blight Infected,ERFD,G0218,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00134.jpg,val,train,val,test,train
+BB/00135.jpg,Bacteria Blight Infected,ERFD,G0219,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00135.jpg,test,train,train,train,train
+BB/00136.jpg,Bacteria Blight Infected,ERFD,G0220,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00136.jpg,train,test,train,train,train
+BB/00137.jpg,Bacteria Blight Infected,ERFD,G0221,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00137.jpg,train,val,val,train,test
+BB/00138.jpg,Bacteria Blight Infected,ERFD,G0222,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00138.jpg,test,train,train,val,val
+BB/00139.jpg,Bacteria Blight Infected,ERFD,G0223,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00139.jpg,train,train,train,test,train
+BB/00140.jpg,Bacteria Blight Infected,ERFD,G0224,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00140.jpg,val,train,train,test,train
+BB/00141.jpg,Bacteria Blight Infected,ERFD,G0225,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00141.jpg,train,val,train,test,train
+BB/00142.jpg,Bacteria Blight Infected,ERFD,G0226,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00142.jpg,train,val,test,train,train
+BB/00143.jpg,Bacteria Blight Infected,ERFD,G0227,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00143.jpg,test,train,train,train,train
+BB/00144.jpg,Bacteria Blight Infected,ERFD,G0026,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00144.jpg,train,test,train,train,val
+BB/00145.jpg,Bacteria Blight Infected,ERFD,G0228,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00145.jpg,test,train,train,train,train
+BB/00146.jpg,Bacteria Blight Infected,ERFD,G0229,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00146.jpg,val,val,val,test,val
+BB/00148.jpg,Bacteria Blight Infected,ERFD,G0026,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00148.jpg,train,train,val,val,test
+BB/00149.jpg,Bacteria Blight Infected,ERFD,G0230,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00149.jpg,train,train,test,val,train
+BB/00150.jpg,Bacteria Blight Infected,ERFD,G0231,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00150.jpg,train,val,train,train,test
+BB/00151.jpg,Bacteria Blight Infected,ERFD,G0232,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00151.jpg,train,train,train,train,test
+BB/00152.jpg,Bacteria Blight Infected,ERFD,G0233,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00152.jpg,train,val,train,test,val
+BB/00153.jpg,Bacteria Blight Infected,ERFD,G0234,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00153.jpg,val,val,train,val,test
+BB/00154.jpg,Bacteria Blight Infected,ERFD,G0235,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00154.jpg,test,train,train,train,train
+BB/00155.jpg,Bacteria Blight Infected,ERFD,G0236,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00155.jpg,test,train,train,val,train
+BB/00156.jpg,Bacteria Blight Infected,ERFD,G0237,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00156.jpg,val,val,test,train,train
+BB/00157.jpg,Bacteria Blight Infected,ERFD,G0238,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00157.jpg,train,train,test,val,train
+BB/00158.jpg,Bacteria Blight Infected,ERFD,G0239,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00158.jpg,train,train,test,val,train
+BB/00159.jpg,Bacteria Blight Infected,ERFD,G0240,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00159.jpg,test,train,train,train,train
+BB/00160.jpg,Bacteria Blight Infected,ERFD,G0241,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00160.jpg,train,train,train,train,test
+BB/00161.jpg,Bacteria Blight Infected,ERFD,G0242,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00161.jpg,val,train,test,train,val
+BB/00162.jpg,Bacteria Blight Infected,ERFD,G0243,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00162.jpg,train,train,train,test,val
+BB/00163.jpg,Bacteria Blight Infected,ERFD,G0244,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00163.jpg,train,test,train,train,train
+BB/00164.jpg,Bacteria Blight Infected,ERFD,G0245,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00164.jpg,test,train,train,train,train
+BB/00165.jpg,Bacteria Blight Infected,ERFD,G0246,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00165.jpg,train,train,train,train,test
+BB/00166.jpg,Bacteria Blight Infected,ERFD,G0247,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00166.jpg,train,train,train,test,train
+BB/00168.jpg,Bacteria Blight Infected,ERFD,G0248,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00168.jpg,train,train,test,train,train
+BB/00169.jpg,Bacteria Blight Infected,ERFD,G0249,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00169.jpg,train,train,train,train,test
+BB/00174.jpg,Bacteria Blight Infected,ERFD,G0250,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00174.jpg,train,train,test,train,val
+BB/00185.jpg,Bacteria Blight Infected,ERFD,G0251,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00185.jpg,val,train,test,train,train
+BB/00192.jpg,Bacteria Blight Infected,ERFD,G0252,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00192.jpg,test,train,train,train,train
+BB/00193.jpg,Bacteria Blight Infected,ERFD,G0253,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00193.jpg,train,test,train,train,train
+BB/00195.jpg,Bacteria Blight Infected,ERFD,G0254,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00195.jpg,test,train,val,train,train
+BB/00196.jpg,Bacteria Blight Infected,ERFD,G0255,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00196.jpg,train,train,test,train,train
+BB/00204.jpg,Bacteria Blight Infected,ERFD,G0256,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00204.jpg,val,test,train,train,train
+BB/00205.jpg,Bacteria Blight Infected,ERFD,G0257,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00205.jpg,train,test,train,train,train
+BB/00207.jpg,Bacteria Blight Infected,ERFD,G0258,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00207.jpg,val,val,train,test,train
+BB/00210.jpg,Bacteria Blight Infected,ERFD,G0259,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00210.jpg,val,train,train,train,test
+BB/00212.jpg,Bacteria Blight Infected,ERFD,G0260,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00212.jpg,val,train,test,train,val
+BB/00213.jpg,Bacteria Blight Infected,ERFD,G0261,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00213.jpg,train,train,train,train,test
+BB/00214.jpg,Bacteria Blight Infected,ERFD,G0262,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00214.jpg,train,train,train,test,train
+BB/00215.jpg,Bacteria Blight Infected,ERFD,G0263,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00215.jpg,test,train,train,train,train
+BB/00216.jpg,Bacteria Blight Infected,ERFD,G0264,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00216.jpg,train,val,test,train,train
+BB/00217.jpg,Bacteria Blight Infected,ERFD,G0265,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00217.jpg,test,train,train,train,val
+BB/00218.jpg,Bacteria Blight Infected,ERFD,G0266,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00218.jpg,train,test,train,train,train
+BB/00219.jpg,Bacteria Blight Infected,ERFD,G0267,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00219.jpg,train,train,train,test,val
+BB/00220.jpg,Bacteria Blight Infected,ERFD,G0268,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00220.jpg,val,train,val,train,test
+BB/00221.jpg,Bacteria Blight Infected,ERFD,G0269,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00221.jpg,val,train,val,test,train
+BB/00222.jpg,Bacteria Blight Infected,ERFD,G0270,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00222.jpg,train,train,train,train,test
+BB/00223.jpg,Bacteria Blight Infected,ERFD,G0271,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00223.jpg,train,train,val,test,train
+BB/00224.jpg,Bacteria Blight Infected,ERFD,G0272,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00224.jpg,train,train,val,train,test
+BB/00225.jpg,Bacteria Blight Infected,ERFD,G0273,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00225.jpg,val,train,test,train,train
+BB/00226.jpg,Bacteria Blight Infected,ERFD,G0274,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00226.jpg,train,test,train,train,val
+BB/00227.jpg,Bacteria Blight Infected,ERFD,G0275,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00227.jpg,test,train,train,train,train
+BB/00228.jpg,Bacteria Blight Infected,ERFD,G0276,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00228.jpg,train,train,test,val,train
+BB/00229.jpg,Bacteria Blight Infected,ERFD,G0277,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00229.jpg,train,val,train,test,train
+BB/00230.jpg,Bacteria Blight Infected,ERFD,G0278,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00230.jpg,val,train,train,test,train
+BB/00231.jpg,Bacteria Blight Infected,ERFD,G0279,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00231.jpg,train,train,train,train,test
+BB/00232.jpg,Bacteria Blight Infected,ERFD,G0280,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00232.jpg,train,train,train,train,test
+BB/00233.jpg,Bacteria Blight Infected,ERFD,G0281,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00233.jpg,train,train,val,test,train
+BB/00234.jpg,Bacteria Blight Infected,ERFD,G0282,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00234.jpg,val,test,train,train,train
+BB/00235.jpg,Bacteria Blight Infected,ERFD,G0283,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00235.jpg,val,test,train,train,val
+BB/00236.jpg,Bacteria Blight Infected,ERFD,G0284,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00236.jpg,train,test,train,train,train
+BB/00237.jpg,Bacteria Blight Infected,ERFD,G0285,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00237.jpg,val,test,train,val,train
+BB/00238.jpg,Bacteria Blight Infected,ERFD,G0286,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00238.jpg,test,val,train,train,train
+BB/00239.jpg,Bacteria Blight Infected,ERFD,G0287,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00239.jpg,train,val,val,train,test
+BB/00240.jpg,Bacteria Blight Infected,ERFD,G0288,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00240.jpg,train,val,train,test,train
+BB/00241.jpg,Bacteria Blight Infected,ERFD,G0289,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00241.jpg,train,train,train,test,train
+BB/00242.jpg,Bacteria Blight Infected,ERFD,G0290,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00242.jpg,train,test,train,train,val
+BB/00243.jpg,Bacteria Blight Infected,ERFD,G0291,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00243.jpg,val,train,train,test,train
+BB/00244.jpg,Bacteria Blight Infected,ERFD,G0292,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00244.jpg,test,train,train,train,train
+BB/00245.jpg,Bacteria Blight Infected,ERFD,G0293,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00245.jpg,train,train,test,val,train
+BB/00246.jpg,Bacteria Blight Infected,ERFD,G0294,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00246.jpg,train,test,val,train,train
+BB/00247.jpg,Bacteria Blight Infected,ERFD,G0295,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00247.jpg,train,train,val,test,train
+BB/00248.jpg,Bacteria Blight Infected,ERFD,G0296,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00248.jpg,train,train,train,test,train
+BB/00249.jpg,Bacteria Blight Infected,ERFD,G0297,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00249.jpg,test,train,train,train,train
+BB/00250.jpg,Bacteria Blight Infected,ERFD,G0298,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00250.jpg,train,train,train,test,train
+BB/00251.jpg,Bacteria Blight Infected,ERFD,G0299,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00251.jpg,train,train,train,train,test
+BB/00252.jpg,Bacteria Blight Infected,ERFD,G0300,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00252.jpg,test,train,train,train,train
+BB/00253.jpg,Bacteria Blight Infected,ERFD,G0301,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00253.jpg,train,train,test,train,train
+BB/00254.jpg,Bacteria Blight Infected,ERFD,G0302,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00254.jpg,train,test,train,train,val
+BB/00255.jpg,Bacteria Blight Infected,ERFD,G0303,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00255.jpg,train,train,train,test,train
+BB/00257.jpg,Bacteria Blight Infected,ERFD,G0304,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00257.jpg,test,val,train,train,train
+BB/00259.jpg,Bacteria Blight Infected,ERFD,G0305,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00259.jpg,train,train,train,test,train
+BB/00260.jpg,Bacteria Blight Infected,ERFD,G0306,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00260.jpg,train,train,train,train,test
+BB/00261.jpg,Bacteria Blight Infected,ERFD,G0307,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00261.jpg,train,test,val,val,train
+BB/00262.jpg,Bacteria Blight Infected,ERFD,G0308,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00262.jpg,test,train,val,val,train
+BB/00263.jpg,Bacteria Blight Infected,ERFD,G0309,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00263.jpg,train,train,train,test,train
+BB/00264.jpg,Bacteria Blight Infected,ERFD,G0310,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00264.jpg,train,train,train,train,test
+BB/00268.jpg,Bacteria Blight Infected,ERFD,G0311,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00268.jpg,train,train,train,test,train
+BB/00269.jpg,Bacteria Blight Infected,ERFD,G0312,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00269.jpg,train,val,train,train,test
+BB/00272.jpg,Bacteria Blight Infected,ERFD,G0313,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00272.jpg,train,train,test,train,train
+BB/00273.jpg,Bacteria Blight Infected,ERFD,G0314,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00273.jpg,val,test,train,val,train
+BB/00274.jpg,Bacteria Blight Infected,ERFD,G0315,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00274.jpg,train,train,train,test,train
+BB/00278.jpg,Bacteria Blight Infected,ERFD,G0316,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00278.jpg,train,test,train,val,train
+BB/00280.jpg,Bacteria Blight Infected,ERFD,G0317,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00280.jpg,train,test,val,train,train
+BB/00284.jpg,Bacteria Blight Infected,ERFD,G0318,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00284.jpg,test,val,train,train,train
+BB/00285.jpg,Bacteria Blight Infected,ERFD,G0319,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00285.jpg,train,train,test,train,train
+BB/00286.jpg,Bacteria Blight Infected,ERFD,G0320,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00286.jpg,train,train,train,train,test
+BB/00289.jpg,Bacteria Blight Infected,ERFD,G0321,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00289.jpg,test,train,val,val,train
+BB/00290.jpg,Bacteria Blight Infected,ERFD,G0322,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Bacteria Blight Infected/Trial_A_00290.jpg,train,train,test,val,train
+HL/00001.jpg,Healthy Leaf,ERFD,G0834,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00001.jpg,test,val,train,train,val
+HL/00002.jpg,Healthy Leaf,ERFD,G0835,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00002.jpg,val,test,train,train,train
+HL/00003.jpg,Healthy Leaf,ERFD,G0836,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00003.jpg,train,train,train,test,train
+HL/00004.jpg,Healthy Leaf,ERFD,G0837,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00004.jpg,train,train,train,train,test
+HL/00005.jpg,Healthy Leaf,ERFD,G0838,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00005.jpg,val,train,val,train,test
+HL/00006.jpg,Healthy Leaf,ERFD,G0839,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00006.jpg,train,test,val,train,train
+HL/00007.jpg,Healthy Leaf,ERFD,G0840,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00007.jpg,train,val,train,train,test
+HL/00008.jpg,Healthy Leaf,ERFD,G0841,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00008.jpg,val,train,test,train,val
+HL/00009.jpg,Healthy Leaf,ERFD,G0842,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00009.jpg,train,test,val,train,train
+HL/00010.jpg,Healthy Leaf,ERFD,G0843,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00010.jpg,val,test,train,train,train
+HL/00011.jpg,Healthy Leaf,ERFD,G0844,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00011.jpg,train,train,train,test,train
+HL/00012.jpg,Healthy Leaf,ERFD,G0845,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00012.jpg,test,val,train,train,train
+HL/00013.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00013.jpg,train,train,train,test,train
+HL/00014.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00014.jpg,train,train,train,test,train
+HL/00015.jpg,Healthy Leaf,ERFD,G0846,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00015.jpg,train,train,val,test,train
+HL/00016.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00016.jpg,val,train,test,val,train
+HL/00017.jpg,Healthy Leaf,ERFD,G0847,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00017.jpg,train,train,train,val,test
+HL/00018.jpg,Healthy Leaf,ERFD,G0848,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00018.jpg,train,train,test,train,val
+HL/00019.jpg,Healthy Leaf,ERFD,G0849,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00019.jpg,test,train,train,train,train
+HL/00020.jpg,Healthy Leaf,ERFD,G0850,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00020.jpg,val,train,train,test,train
+HL/00021.jpg,Healthy Leaf,ERFD,G0851,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00021.jpg,train,train,train,test,train
+HL/00022.jpg,Healthy Leaf,ERFD,G0852,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00022.jpg,test,train,train,train,train
+HL/00023.jpg,Healthy Leaf,ERFD,G0853,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00023.jpg,train,test,train,train,train
+HL/00024.jpg,Healthy Leaf,ERFD,G0854,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00024.jpg,train,train,train,test,train
+HL/00025.jpg,Healthy Leaf,ERFD,G0855,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00025.jpg,val,train,train,train,test
+HL/00026.jpg,Healthy Leaf,ERFD,G0856,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00026.jpg,val,train,train,val,test
+HL/00027.jpg,Healthy Leaf,ERFD,G0857,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00027.jpg,train,val,val,train,test
+HL/00028.jpg,Healthy Leaf,ERFD,G0059,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00028.jpg,val,test,train,val,train
+HL/00029.jpg,Healthy Leaf,ERFD,G0858,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00029.jpg,train,train,test,train,val
+HL/00030.jpg,Healthy Leaf,ERFD,G0859,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00030.jpg,train,val,test,train,val
+HL/00031.jpg,Healthy Leaf,ERFD,G0860,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00031.jpg,train,val,train,val,test
+HL/00032.jpg,Healthy Leaf,ERFD,G0861,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00032.jpg,train,train,test,train,train
+HL/00033.jpg,Healthy Leaf,ERFD,G0060,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00033.jpg,test,train,train,train,train
+HL/00034.jpg,Healthy Leaf,ERFD,G0060,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00034.jpg,val,train,val,val,test
+HL/00035.jpg,Healthy Leaf,ERFD,G0862,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00035.jpg,train,train,train,test,train
+HL/00036.jpg,Healthy Leaf,ERFD,G0863,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00036.jpg,train,train,val,train,test
+HL/00037.jpg,Healthy Leaf,ERFD,G0864,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00037.jpg,train,train,train,val,test
+HL/00038.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00038.jpg,train,val,train,test,train
+HL/00039.jpg,Healthy Leaf,ERFD,G0865,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00039.jpg,test,train,train,train,train
+HL/00040.jpg,Healthy Leaf,ERFD,G0866,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00040.jpg,train,train,train,test,val
+HL/00041.jpg,Healthy Leaf,ERFD,G0867,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00041.jpg,train,train,test,train,train
+HL/00042.jpg,Healthy Leaf,ERFD,G0868,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00042.jpg,train,train,train,test,train
+HL/00043.jpg,Healthy Leaf,ERFD,G0061,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00043.jpg,val,test,train,train,train
+HL/00044.jpg,Healthy Leaf,ERFD,G0869,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00044.jpg,train,train,train,train,test
+HL/00045.jpg,Healthy Leaf,ERFD,G0870,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00045.jpg,val,train,train,train,test
+HL/00046.jpg,Healthy Leaf,ERFD,G0871,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00046.jpg,val,test,train,train,val
+HL/00047.jpg,Healthy Leaf,ERFD,G0872,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00047.jpg,train,train,test,train,val
+HL/00048.jpg,Healthy Leaf,ERFD,G0873,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00048.jpg,test,train,train,train,train
+HL/00049.jpg,Healthy Leaf,ERFD,G0059,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00049.jpg,train,train,test,train,train
+HL/00050.jpg,Healthy Leaf,ERFD,G0062,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00050.jpg,train,test,train,train,train
+HL/00051.jpg,Healthy Leaf,ERFD,G0874,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00051.jpg,train,train,val,test,train
+HL/00052.jpg,Healthy Leaf,ERFD,G0875,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00052.jpg,test,train,train,train,train
+HL/00053.jpg,Healthy Leaf,ERFD,G0876,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00053.jpg,train,train,test,train,train
+HL/00054.jpg,Healthy Leaf,ERFD,G0877,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00054.jpg,train,train,test,val,val
+HL/00055.jpg,Healthy Leaf,ERFD,G0878,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00055.jpg,test,val,train,val,train
+HL/00056.jpg,Healthy Leaf,ERFD,G0879,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00056.jpg,train,train,train,train,test
+HL/00057.jpg,Healthy Leaf,ERFD,G0880,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00057.jpg,train,train,train,test,val
+HL/00058.jpg,Healthy Leaf,ERFD,G0881,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00058.jpg,val,val,train,test,train
+HL/00059.jpg,Healthy Leaf,ERFD,G0882,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00059.jpg,train,test,train,train,train
+HL/00060.jpg,Healthy Leaf,ERFD,G0883,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00060.jpg,val,train,test,train,val
+HL/00061.jpg,Healthy Leaf,ERFD,G0884,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00061.jpg,train,train,test,train,train
+HL/00062.jpg,Healthy Leaf,ERFD,G0885,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00062.jpg,train,train,train,test,val
+HL/00063.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00063.jpg,train,train,test,train,train
+HL/00064.jpg,Healthy Leaf,ERFD,G0886,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00064.jpg,train,train,test,train,train
+HL/00065.jpg,Healthy Leaf,ERFD,G0887,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00065.jpg,train,test,train,train,val
+HL/00066.jpg,Healthy Leaf,ERFD,G0888,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00066.jpg,train,test,val,train,train
+HL/00067.jpg,Healthy Leaf,ERFD,G0889,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00067.jpg,test,train,val,val,train
+HL/00068.jpg,Healthy Leaf,ERFD,G0890,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00068.jpg,train,val,train,test,train
+HL/00069.jpg,Healthy Leaf,ERFD,G0891,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00069.jpg,train,test,train,train,train
+HL/00070.jpg,Healthy Leaf,ERFD,G0892,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00070.jpg,train,train,train,train,test
+HL/00072.jpg,Healthy Leaf,ERFD,G0893,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00072.jpg,train,train,train,test,val
+HL/00073.jpg,Healthy Leaf,ERFD,G0062,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00073.jpg,train,train,train,test,train
+HL/00074.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00074.jpg,val,train,test,train,train
+HL/00075.jpg,Healthy Leaf,ERFD,G0894,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00075.jpg,val,test,train,val,train
+HL/00076.jpg,Healthy Leaf,ERFD,G0895,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00076.jpg,train,train,val,train,test
+HL/00077.jpg,Healthy Leaf,ERFD,G0896,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00077.jpg,val,val,train,val,test
+HL/00078.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00078.jpg,val,test,val,train,train
+HL/00079.jpg,Healthy Leaf,ERFD,G0897,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00079.jpg,train,test,train,train,train
+HL/00080.jpg,Healthy Leaf,ERFD,G0898,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00080.jpg,train,val,train,train,test
+HL/00081.jpg,Healthy Leaf,ERFD,G0899,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00081.jpg,val,test,train,train,train
+HL/00082.jpg,Healthy Leaf,ERFD,G0061,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00082.jpg,test,train,train,val,val
+HL/00083.jpg,Healthy Leaf,ERFD,G0900,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00083.jpg,train,val,test,train,val
+HL/00084.jpg,Healthy Leaf,ERFD,G0901,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00084.jpg,train,train,train,train,test
+HL/00085.jpg,Healthy Leaf,ERFD,G0902,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00085.jpg,train,test,train,train,train
+HL/00086.jpg,Healthy Leaf,ERFD,G0903,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00086.jpg,train,train,val,test,train
+HL/00087.jpg,Healthy Leaf,ERFD,G0904,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00087.jpg,train,val,test,train,val
+HL/00088.jpg,Healthy Leaf,ERFD,G0905,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00088.jpg,test,train,train,val,train
+HL/00089.jpg,Healthy Leaf,ERFD,G0906,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00089.jpg,train,val,test,train,train
+HL/00090.jpg,Healthy Leaf,ERFD,G0907,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00090.jpg,train,train,test,train,val
+HL/00091.jpg,Healthy Leaf,ERFD,G0908,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00091.jpg,train,train,val,test,train
+HL/00092.jpg,Healthy Leaf,ERFD,G0909,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00092.jpg,train,train,test,train,train
+HL/00093.jpg,Healthy Leaf,ERFD,G0910,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00093.jpg,train,train,test,train,train
+HL/00094.jpg,Healthy Leaf,ERFD,G0911,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00094.jpg,train,train,train,test,train
+HL/00095.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00095.jpg,train,val,train,val,test
+HL/00096.jpg,Healthy Leaf,ERFD,G0912,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00096.jpg,test,train,train,train,train
+HL/00097.jpg,Healthy Leaf,ERFD,G0913,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00097.jpg,val,train,test,val,train
+HL/00098.jpg,Healthy Leaf,ERFD,G0914,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00098.jpg,train,train,train,test,train
+HL/00099.jpg,Healthy Leaf,ERFD,G0915,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00099.jpg,train,test,train,train,train
+HL/00101.jpg,Healthy Leaf,ERFD,G0916,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00101.jpg,test,val,val,val,train
+HL/00102.jpg,Healthy Leaf,ERFD,G0917,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00102.jpg,train,test,train,train,train
+HL/00103.jpg,Healthy Leaf,ERFD,G0918,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00103.jpg,train,test,train,train,train
+HL/00104.jpg,Healthy Leaf,ERFD,G0919,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00104.jpg,train,train,train,train,test
+HL/00105.jpg,Healthy Leaf,ERFD,G0920,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00105.jpg,train,train,test,train,train
+HL/00106.jpg,Healthy Leaf,ERFD,G0921,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00106.jpg,test,train,train,train,train
+HL/00107.jpg,Healthy Leaf,ERFD,G0922,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00107.jpg,train,val,train,test,train
+HL/00108.jpg,Healthy Leaf,ERFD,G0923,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00108.jpg,train,test,train,train,train
+HL/00109.jpg,Healthy Leaf,ERFD,G0924,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00109.jpg,train,test,val,val,val
+HL/00110.jpg,Healthy Leaf,ERFD,G0925,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00110.jpg,val,train,train,train,test
+HL/00111.jpg,Healthy Leaf,ERFD,G0926,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00111.jpg,test,train,train,train,train
+HL/00112.jpg,Healthy Leaf,ERFD,G0927,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00112.jpg,train,train,test,train,train
+HL/00113.jpg,Healthy Leaf,ERFD,G0928,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00113.jpg,test,train,train,train,train
+HL/00116.jpg,Healthy Leaf,ERFD,G0929,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00116.jpg,train,train,test,train,val
+HL/00117.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00117.jpg,test,train,train,train,train
+HL/00118.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00118.jpg,test,train,train,val,val
+HL/00119.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00119.jpg,train,train,train,train,test
+HL/00120.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00120.jpg,train,train,train,test,train
+HL/00121.jpg,Healthy Leaf,ERFD,G0930,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00121.jpg,train,train,test,train,train
+HL/00122.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00122.jpg,train,test,train,train,train
+HL/00123.jpg,Healthy Leaf,ERFD,G0931,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00123.jpg,test,train,train,train,train
+HL/00124.jpg,Healthy Leaf,ERFD,G0932,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00124.jpg,test,train,train,train,train
+HL/00126.jpg,Healthy Leaf,ERFD,G0933,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00126.jpg,train,val,test,val,train
+HL/00127.jpg,Healthy Leaf,ERFD,G0934,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00127.jpg,train,test,train,val,val
+HL/00128.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00128.jpg,train,test,val,train,train
+HL/00129.jpg,Healthy Leaf,ERFD,G0935,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00129.jpg,train,train,train,train,test
+HL/00130.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00130.jpg,train,train,val,test,val
+HL/00131.jpg,Healthy Leaf,ERFD,G0936,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00131.jpg,val,train,test,train,train
+HL/00132.jpg,Healthy Leaf,ERFD,G0937,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00132.jpg,train,train,train,test,train
+HL/00133.jpg,Healthy Leaf,ERFD,G0015,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00133.jpg,test,train,train,train,train
+HL/00134.jpg,Healthy Leaf,ERFD,G0015,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00134.jpg,train,val,train,train,test
+HL/00135.jpg,Healthy Leaf,ERFD,G0938,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00135.jpg,train,val,test,train,train
+HL/00137.jpg,Healthy Leaf,ERFD,G0939,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00137.jpg,test,val,train,train,train
+HL/00138.jpg,Healthy Leaf,ERFD,G0015,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00138.jpg,train,val,train,train,test
+HL/00139.jpg,Healthy Leaf,ERFD,G0940,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00139.jpg,train,test,val,train,train
+HL/00140.jpg,Healthy Leaf,ERFD,G0941,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00140.jpg,train,train,train,train,test
+HL/00141.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00141.jpg,val,train,train,test,train
+HL/00142.jpg,Healthy Leaf,ERFD,G0942,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00142.jpg,test,train,train,train,train
+HL/00143.jpg,Healthy Leaf,ERFD,G0943,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00143.jpg,train,train,test,train,train
+HL/00144.jpg,Healthy Leaf,ERFD,G0944,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00144.jpg,test,train,train,train,train
+HL/00145.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00145.jpg,val,train,train,val,test
+HL/00146.jpg,Healthy Leaf,ERFD,G0015,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00146.jpg,train,val,test,train,train
+HL/00148.jpg,Healthy Leaf,ERFD,G0945,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00148.jpg,val,test,train,train,train
+HL/00149.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00149.jpg,train,test,train,train,train
+HL/00150.jpg,Healthy Leaf,ERFD,G0946,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00150.jpg,train,train,train,train,test
+HL/00151.jpg,Healthy Leaf,ERFD,G0947,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00151.jpg,train,train,test,train,train
+HL/00152.jpg,Healthy Leaf,ERFD,G0948,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00152.jpg,train,train,train,train,test
+HL/00153.jpg,Healthy Leaf,ERFD,G0949,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00153.jpg,train,train,test,train,train
+HL/00154.jpg,Healthy Leaf,ERFD,G0950,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00154.jpg,test,train,train,train,val
+HL/00155.jpg,Healthy Leaf,ERFD,G0951,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00155.jpg,test,train,train,train,train
+HL/00156.jpg,Healthy Leaf,ERFD,G0952,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00156.jpg,train,train,train,test,val
+HL/00157.jpg,Healthy Leaf,ERFD,G0953,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00157.jpg,train,train,train,test,train
+HL/00159.jpg,Healthy Leaf,ERFD,G0954,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00159.jpg,val,train,test,train,train
+HL/00160.jpg,Healthy Leaf,ERFD,G0955,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00160.jpg,train,test,train,train,train
+HL/00161.jpg,Healthy Leaf,ERFD,G0063,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00161.jpg,train,test,train,train,train
+HL/00162.jpg,Healthy Leaf,ERFD,G0956,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00162.jpg,train,train,train,test,train
+HL/00163.jpg,Healthy Leaf,ERFD,G0957,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00163.jpg,test,val,val,train,val
+HL/00164.jpg,Healthy Leaf,ERFD,G0063,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00164.jpg,train,test,train,train,val
+HL/00165.jpg,Healthy Leaf,ERFD,G0958,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00165.jpg,test,train,train,train,train
+HL/00166.jpg,Healthy Leaf,ERFD,G0959,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00166.jpg,test,val,train,train,val
+HL/00167.jpg,Healthy Leaf,ERFD,G0960,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00167.jpg,train,test,train,train,train
+HL/00168.jpg,Healthy Leaf,ERFD,G0961,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00168.jpg,test,train,train,train,val
+HL/00170.jpg,Healthy Leaf,ERFD,G0962,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00170.jpg,train,train,val,train,test
+HL/00171.jpg,Healthy Leaf,ERFD,G0963,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00171.jpg,test,val,train,val,train
+HL/00172.jpg,Healthy Leaf,ERFD,G0964,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00172.jpg,test,train,val,train,train
+HL/00173.jpg,Healthy Leaf,ERFD,G0965,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00173.jpg,val,train,test,train,train
+HL/00174.jpg,Healthy Leaf,ERFD,G0966,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00174.jpg,train,train,train,train,test
+HL/00175.jpg,Healthy Leaf,ERFD,G0967,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00175.jpg,train,train,val,val,test
+HL/00176.jpg,Healthy Leaf,ERFD,G0968,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00176.jpg,val,train,train,train,test
+HL/00177.jpg,Healthy Leaf,ERFD,G0969,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00177.jpg,train,train,train,test,train
+HL/00178.jpg,Healthy Leaf,ERFD,G0970,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00178.jpg,train,val,val,test,train
+HL/00179.jpg,Healthy Leaf,ERFD,G0971,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00179.jpg,train,train,train,test,train
+HL/00181.jpg,Healthy Leaf,ERFD,G0972,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00181.jpg,test,train,train,train,train
+HL/00182.jpg,Healthy Leaf,ERFD,G0973,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00182.jpg,val,train,val,val,test
+HL/00183.jpg,Healthy Leaf,ERFD,G0974,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00183.jpg,val,train,val,test,train
+HL/00184.jpg,Healthy Leaf,ERFD,G0975,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00184.jpg,val,test,val,train,train
+HL/00185.jpg,Healthy Leaf,ERFD,G0976,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00185.jpg,train,test,val,train,train
+HL/00186.jpg,Healthy Leaf,ERFD,G0977,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00186.jpg,val,val,train,train,test
+HL/00187.jpg,Healthy Leaf,ERFD,G0978,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00187.jpg,train,test,train,train,val
+HL/00188.jpg,Healthy Leaf,ERFD,G0979,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00188.jpg,train,test,train,train,train
+HL/00189.jpg,Healthy Leaf,ERFD,G0980,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00189.jpg,train,test,train,val,train
+HL/00190.jpg,Healthy Leaf,ERFD,G0981,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00190.jpg,train,test,val,val,train
+HL/00192.jpg,Healthy Leaf,ERFD,G0982,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00192.jpg,train,val,test,train,train
+HL/00193.jpg,Healthy Leaf,ERFD,G0983,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00193.jpg,train,test,train,val,train
+HL/00194.jpg,Healthy Leaf,ERFD,G0984,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00194.jpg,train,test,val,train,train
+HL/00195.jpg,Healthy Leaf,ERFD,G0985,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00195.jpg,train,train,train,val,test
+HL/00196.jpg,Healthy Leaf,ERFD,G0986,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00196.jpg,train,train,train,train,test
+HL/00197.jpg,Healthy Leaf,ERFD,G0987,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00197.jpg,test,train,val,train,train
+HL/00198.jpg,Healthy Leaf,ERFD,G0988,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00198.jpg,test,train,train,train,val
+HL/00199.jpg,Healthy Leaf,ERFD,G0989,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00199.jpg,train,train,train,test,train
+HL/00200.jpg,Healthy Leaf,ERFD,G0990,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00200.jpg,train,val,train,test,train
+HL/00201.jpg,Healthy Leaf,ERFD,G0991,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00201.jpg,train,train,train,train,test
+HL/00203.jpg,Healthy Leaf,ERFD,G0992,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00203.jpg,test,train,train,train,train
+HL/00204.jpg,Healthy Leaf,ERFD,G0993,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00204.jpg,train,train,train,train,test
+HL/00205.jpg,Healthy Leaf,ERFD,G0994,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00205.jpg,test,train,train,train,train
+HL/00206.jpg,Healthy Leaf,ERFD,G0995,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00206.jpg,train,val,train,test,train
+HL/00207.jpg,Healthy Leaf,ERFD,G0996,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00207.jpg,train,train,test,val,train
+HL/00208.jpg,Healthy Leaf,ERFD,G0997,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00208.jpg,val,train,train,val,test
+HL/00209.jpg,Healthy Leaf,ERFD,G0998,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00209.jpg,train,train,train,val,test
+HL/00210.jpg,Healthy Leaf,ERFD,G0999,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00210.jpg,train,test,train,train,train
+HL/00211.jpg,Healthy Leaf,ERFD,G1000,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00211.jpg,train,train,test,train,train
+HL/00212.jpg,Healthy Leaf,ERFD,G1001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00212.jpg,test,train,train,train,train
+HL/00214.jpg,Healthy Leaf,ERFD,G1002,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00214.jpg,test,train,train,val,val
+HL/00215.jpg,Healthy Leaf,ERFD,G1003,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00215.jpg,train,train,test,train,train
+HL/00216.jpg,Healthy Leaf,ERFD,G1004,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00216.jpg,train,test,train,train,train
+HL/00217.jpg,Healthy Leaf,ERFD,G1005,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00217.jpg,train,val,train,test,val
+HL/00218.jpg,Healthy Leaf,ERFD,G1006,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00218.jpg,train,test,val,train,train
+HL/00219.jpg,Healthy Leaf,ERFD,G1007,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00219.jpg,train,val,test,train,train
+HL/00220.jpg,Healthy Leaf,ERFD,G1008,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00220.jpg,val,train,test,val,train
+HL/00221.jpg,Healthy Leaf,ERFD,G1009,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00221.jpg,test,train,train,train,train
+HL/00222.jpg,Healthy Leaf,ERFD,G1010,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00222.jpg,train,train,train,test,train
+HL/00223.jpg,Healthy Leaf,ERFD,G1011,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00223.jpg,train,train,val,train,test
+HL/00224.jpg,Healthy Leaf,ERFD,G1012,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00224.jpg,train,train,val,test,train
+HL/00226.jpg,Healthy Leaf,ERFD,G1013,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00226.jpg,train,train,val,test,train
+HL/00227.jpg,Healthy Leaf,ERFD,G1014,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00227.jpg,train,train,test,train,val
+HL/00237.jpg,Healthy Leaf,ERFD,G0001,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00237.jpg,test,train,train,val,val
+HL/00248.jpg,Healthy Leaf,ERFD,G1015,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00248.jpg,train,train,train,test,train
+HL/00259.jpg,Healthy Leaf,ERFD,G1016,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Healthy Leaf/Trial_A_00259.jpg,test,train,train,train,train
+PI/00001.jpg,Phyllody Infected,ERFD,G1288,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00001.jpg,train,val,train,test,train
+PI/00002.jpg,Phyllody Infected,ERFD,G1289,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00002.jpg,train,test,val,train,train
+PI/00003.jpg,Phyllody Infected,ERFD,G1290,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00003.jpg,train,val,test,train,train
+PI/00009.jpg,Phyllody Infected,ERFD,G1291,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00009.jpg,train,train,train,test,train
+PI/00010.jpg,Phyllody Infected,ERFD,G1292,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00010.jpg,train,train,train,train,test
+PI/00013.jpg,Phyllody Infected,ERFD,G1293,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00013.jpg,val,test,train,train,val
+PI/00015.jpg,Phyllody Infected,ERFD,G1294,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00015.jpg,train,train,train,train,test
+PI/00018.jpg,Phyllody Infected,ERFD,G1295,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00018.jpg,train,train,test,train,train
+PI/00020.jpg,Phyllody Infected,ERFD,G1296,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00020.jpg,train,train,test,val,val
+PI/00022.jpg,Phyllody Infected,ERFD,G1297,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00022.jpg,train,val,train,val,test
+PI/00033.jpg,Phyllody Infected,ERFD,G1298,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00033.jpg,train,test,val,train,train
+PI/00034.jpg,Phyllody Infected,ERFD,G1299,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00034.jpg,train,val,train,train,test
+PI/00036.jpg,Phyllody Infected,ERFD,G1300,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00036.jpg,val,train,test,train,train
+PI/00038.jpg,Phyllody Infected,ERFD,G1301,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00038.jpg,train,train,train,val,test
+PI/00039.jpg,Phyllody Infected,ERFD,G1302,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00039.jpg,train,train,test,train,train
+PI/00040.jpg,Phyllody Infected,ERFD,G1303,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00040.jpg,test,val,val,train,train
+PI/00045.jpg,Phyllody Infected,ERFD,G1304,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00045.jpg,train,test,val,val,val
+PI/00046.jpg,Phyllody Infected,ERFD,G1305,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00046.jpg,train,train,test,train,train
+PI/00047.jpg,Phyllody Infected,ERFD,G1306,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00047.jpg,val,train,train,train,test
+PI/00048.jpg,Phyllody Infected,ERFD,G1307,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00048.jpg,test,train,train,val,train
+PI/00051.jpg,Phyllody Infected,ERFD,G1308,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00051.jpg,train,train,test,train,train
+PI/00061.jpg,Phyllody Infected,ERFD,G1309,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00061.jpg,train,test,val,train,train
+PI/00062.jpg,Phyllody Infected,ERFD,G1310,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00062.jpg,train,train,test,train,train
+PI/00065.jpg,Phyllody Infected,ERFD,G1311,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00065.jpg,train,train,train,test,train
+PI/00066.jpg,Phyllody Infected,ERFD,G1312,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00066.jpg,train,train,train,test,train
+PI/00078.jpg,Phyllody Infected,ERFD,G1313,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00078.jpg,train,train,test,train,train
+PI/00082.jpg,Phyllody Infected,ERFD,G1314,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00082.jpg,train,train,test,train,train
+PI/00083.jpg,Phyllody Infected,ERFD,G1315,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00083.jpg,test,train,train,train,train
+PI/00085.jpg,Phyllody Infected,ERFD,G1316,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00085.jpg,test,train,train,val,train
+PI/00086.jpg,Phyllody Infected,ERFD,G1317,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00086.jpg,train,train,test,train,val
+PI/00087.jpg,Phyllody Infected,ERFD,G1318,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00087.jpg,test,train,train,train,train
+PI/00091.jpg,Phyllody Infected,ERFD,G1319,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00091.jpg,train,test,val,train,train
+PI/00092.jpg,Phyllody Infected,ERFD,G1320,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00092.jpg,test,train,train,val,train
+PI/00096.jpg,Phyllody Infected,ERFD,G1321,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00096.jpg,train,test,train,train,train
+PI/00097.jpg,Phyllody Infected,ERFD,G1322,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00097.jpg,train,train,test,train,train
+PI/00098.jpg,Phyllody Infected,ERFD,G1323,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00098.jpg,train,val,train,train,test
+PI/00099.jpg,Phyllody Infected,ERFD,G1324,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00099.jpg,test,train,train,train,train
+PI/00102.jpg,Phyllody Infected,ERFD,G1325,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00102.jpg,train,train,val,test,val
+PI/00104.jpg,Phyllody Infected,ERFD,G1326,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00104.jpg,val,val,test,train,train
+PI/00106.jpg,Phyllody Infected,ERFD,G1327,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00106.jpg,train,test,train,train,val
+PI/00109.jpg,Phyllody Infected,ERFD,G1328,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00109.jpg,test,val,train,val,train
+PI/00114.jpg,Phyllody Infected,ERFD,G1329,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00114.jpg,train,test,train,train,train
+PI/00115.jpg,Phyllody Infected,ERFD,G1330,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00115.jpg,train,val,val,test,train
+PI/00118.jpg,Phyllody Infected,ERFD,G1331,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00118.jpg,test,train,train,train,val
+PI/00120.jpg,Phyllody Infected,ERFD,G1332,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00120.jpg,test,train,train,val,train
+PI/00121.jpg,Phyllody Infected,ERFD,G1333,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00121.jpg,test,train,val,train,train
+PI/00122.jpg,Phyllody Infected,ERFD,G1334,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00122.jpg,train,train,train,val,test
+PI/00123.jpg,Phyllody Infected,ERFD,G1335,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00123.jpg,val,train,test,train,train
+PI/00124.jpg,Phyllody Infected,ERFD,G1336,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00124.jpg,train,train,train,train,test
+PI/00125.jpg,Phyllody Infected,ERFD,G1337,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00125.jpg,train,train,test,train,train
+PI/00126.jpg,Phyllody Infected,ERFD,G1338,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00126.jpg,train,train,train,test,train
+PI/00127.jpg,Phyllody Infected,ERFD,G1339,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00127.jpg,train,train,test,train,train
+PI/00128.jpg,Phyllody Infected,ERFD,G1340,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00128.jpg,val,train,train,test,train
+PI/00130.jpg,Phyllody Infected,ERFD,G1341,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00130.jpg,train,val,train,train,test
+PI/00131.jpg,Phyllody Infected,ERFD,G1342,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00131.jpg,train,train,train,test,val
+PI/00132.jpg,Phyllody Infected,ERFD,G1343,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00132.jpg,val,test,train,train,val
+PI/00134.jpg,Phyllody Infected,ERFD,G1344,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00134.jpg,val,train,val,train,test
+PI/00137.jpg,Phyllody Infected,ERFD,G1345,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00137.jpg,train,train,train,train,test
+PI/00138.jpg,Phyllody Infected,ERFD,G1346,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00138.jpg,val,train,train,train,test
+PI/00139.jpg,Phyllody Infected,ERFD,G1347,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00139.jpg,test,train,val,val,train
+PI/00142.jpg,Phyllody Infected,ERFD,G1348,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00142.jpg,train,train,train,test,train
+PI/00143.jpg,Phyllody Infected,ERFD,G1349,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00143.jpg,test,train,train,train,val
+PI/00146.jpg,Phyllody Infected,ERFD,G1350,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00146.jpg,test,train,train,val,train
+PI/00147.jpg,Phyllody Infected,ERFD,G1351,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00147.jpg,train,test,train,train,val
+PI/00148.jpg,Phyllody Infected,ERFD,G1352,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00148.jpg,train,train,train,test,val
+PI/00149.jpg,Phyllody Infected,ERFD,G1353,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00149.jpg,train,test,val,train,train
+PI/00150.jpg,Phyllody Infected,ERFD,G1354,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00150.jpg,train,train,test,train,train
+PI/00152.jpg,Phyllody Infected,ERFD,G1355,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00152.jpg,val,test,train,train,train
+PI/00153.jpg,Phyllody Infected,ERFD,G1356,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00153.jpg,test,val,val,train,train
+PI/00154.jpg,Phyllody Infected,ERFD,G1357,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00154.jpg,train,val,test,train,val
+PI/00155.jpg,Phyllody Infected,ERFD,G1358,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00155.jpg,train,train,train,test,train
+PI/00156.jpg,Phyllody Infected,ERFD,G1359,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00156.jpg,train,train,val,train,test
+PI/00157.jpg,Phyllody Infected,ERFD,G1360,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00157.jpg,train,train,train,val,test
+PI/00158.jpg,Phyllody Infected,ERFD,G1361,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00158.jpg,train,train,train,test,train
+PI/00159.jpg,Phyllody Infected,ERFD,G1362,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00159.jpg,train,train,train,test,train
+PI/00160.jpg,Phyllody Infected,ERFD,G1363,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00160.jpg,train,test,train,val,train
+PI/00161.jpg,Phyllody Infected,ERFD,G1364,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00161.jpg,test,train,val,train,val
+PI/00164.jpg,Phyllody Infected,ERFD,G1365,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00164.jpg,train,val,test,train,train
+PI/00165.jpg,Phyllody Infected,ERFD,G1366,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00165.jpg,train,train,test,train,train
+PI/00166.jpg,Phyllody Infected,ERFD,G1367,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00166.jpg,train,train,train,train,test
+PI/00167.jpg,Phyllody Infected,ERFD,G1368,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00167.jpg,train,test,train,train,train
+PI/00169.jpg,Phyllody Infected,ERFD,G1369,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00169.jpg,train,train,val,val,test
+PI/00170.jpg,Phyllody Infected,ERFD,G1370,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00170.jpg,val,train,train,train,test
+PI/00171.jpg,Phyllody Infected,ERFD,G1371,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00171.jpg,test,train,train,train,train
+PI/00174.jpg,Phyllody Infected,ERFD,G1372,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00174.jpg,train,train,train,test,train
+PI/00176.jpg,Phyllody Infected,ERFD,G1373,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00176.jpg,train,test,val,train,train
+PI/00177.jpg,Phyllody Infected,ERFD,G1374,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00177.jpg,train,val,train,test,train
+PI/00179.jpg,Phyllody Infected,ERFD,G1375,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00179.jpg,val,train,train,test,train
+PI/00181.jpg,Phyllody Infected,ERFD,G1376,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00181.jpg,val,test,train,train,train
+PI/00182.jpg,Phyllody Infected,ERFD,G1377,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00182.jpg,train,val,train,test,train
+PI/00185.jpg,Phyllody Infected,ERFD,G1378,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00185.jpg,train,val,train,train,test
+PI/00190.jpg,Phyllody Infected,ERFD,G1379,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00190.jpg,test,train,train,train,val
+PI/00196.jpg,Phyllody Infected,ERFD,G1380,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00196.jpg,train,test,train,train,val
+PI/00216.jpg,Phyllody Infected,ERFD,G1381,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00216.jpg,test,train,train,val,train
+PI/00218.jpg,Phyllody Infected,ERFD,G1382,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00218.jpg,val,train,train,train,test
+PI/00222.jpg,Phyllody Infected,ERFD,G1383,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00222.jpg,val,test,train,train,train
+PI/00223.jpg,Phyllody Infected,ERFD,G1384,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00223.jpg,train,train,train,test,train
+PI/00229.jpg,Phyllody Infected,ERFD,G1385,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00229.jpg,val,test,train,train,val
+PI/00234.jpg,Phyllody Infected,ERFD,G1386,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00234.jpg,val,val,test,train,train
+PI/00236.jpg,Phyllody Infected,ERFD,G1387,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00236.jpg,train,train,test,train,train
+PI/00237.jpg,Phyllody Infected,ERFD,G1388,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00237.jpg,train,train,train,test,train
+PI/00238.jpg,Phyllody Infected,ERFD,G1389,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00238.jpg,test,train,train,train,train
+PI/00239.jpg,Phyllody Infected,ERFD,G1390,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00239.jpg,train,train,train,test,train
+PI/00240.jpg,Phyllody Infected,ERFD,G1391,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00240.jpg,test,train,train,train,train
+PI/00243.jpg,Phyllody Infected,ERFD,G1392,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00243.jpg,train,test,train,train,train
+PI/00249.jpg,Phyllody Infected,ERFD,G1393,False,Sesame Datasets/Sesame_Preprocessing_Study/Trial_A (Resize)/CombinedPaper_Clean/Phyllody Infected/Trial_A_00249.jpg,train,train,train,val,test
