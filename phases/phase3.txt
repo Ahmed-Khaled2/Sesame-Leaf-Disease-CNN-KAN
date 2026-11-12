@@ -38,13 +38,7 @@
 --phase P3 --data base --head linear --seed 2
 --phase P3 --data base --head kan --kan-base off --seed 2
 
-# C. SesameMulti + synthetic images (train only): does synthetic data help?
---phase P3 --data multi_syn --head kan --seed 0
---phase P3 --data multi_syn --head mlp --seed 0
---phase P3 --data multi_syn --head kan --seed 1
---phase P3 --data multi_syn --head mlp --seed 1
---phase P3 --data multi_syn --head kan --seed 2
---phase P3 --data multi_syn --head mlp --seed 2
+# C. SesameMulti + synthetic images (train only): see phase6.txt
 
 # D. Original GP KAN head (no LayerNorm): what the LayerNorm fix changes
 --phase P3 --data multi --head kan --norm none --seed 0

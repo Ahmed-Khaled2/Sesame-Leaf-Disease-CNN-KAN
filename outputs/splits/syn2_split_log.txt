@@ -1,0 +1,30 @@
+=== make_syn2_split.py  2026-11-09 23:57:00
+  [OK ] real photos and their roles are identical to splits_multi.csv (1606 real photos)
+  [OK ] synthetic uids are new 
+  [OK ] synthetic uids are unique 
+  [OK ] every Gemini image (group) is in one batch only 
+  [OK ] batches are 0-4 [0, 1, 2, 3, 4]
+  [OK ] synthetic images are never val or test 
+  [OK ] batch k is unused in fold k and train elsewhere 
+  [OK ] synthetic images below 50% of each class's training images in every fold (highest share 47.2%)
+
+Synthetic images per class and batch:
+batch               0   1   2   3   4
+cls                                  
+Phyllody Infected  15  15  15  15  15
+Powdery Mildew     23  22  22  22  22
+
+Training images per fold (synthetic classes only):
+ fold               cls  train_real  val  test  train_synthetic  synthetic_share_of_training
+    0 Phyllody Infected          68   17    21               60                       0.4688
+    0    Powdery Mildew         101   25    32               88                       0.4656
+    1 Phyllody Infected          68   17    21               60                       0.4688
+    1    Powdery Mildew         101   25    32               89                       0.4684
+    2 Phyllody Infected          68   17    21               60                       0.4688
+    2    Powdery Mildew         102   25    31               89                       0.4660
+    3 Phyllody Infected          67   17    22               60                       0.4724
+    3    Powdery Mildew         101   25    32               89                       0.4684
+    4 Phyllody Infected          68   17    21               60                       0.4688
+    4    Powdery Mildew         102   25    31               89                       0.4660
+
+Wrote splits_multi_syn2.csv: 1792 rows (186 synthetic), fingerprint d6f62fd987cf9cadfc2ce05612b0131d. All 8 checks passed.

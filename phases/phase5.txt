@@ -1,0 +1,32 @@
+# Phase 5 - revision runs (November 2026): the MLP-SiLU baseline and the per-class spline share.
+# About 3-3.5 hours with 3 workers. Nothing here changes an old run.
+# --phase P3: these heads use the same data, folds and seeds as phase 3, so summarize.py compares them with
+# the phase 3 heads directly (MLP-SiLU vs KAN, vs MLP with ReLU, ...).
+
+# A. Per-class spline share for all 5 folds of the saved seed-0 KAN models (no training, a few minutes)
+@kan_curves.py --class-shares-only --folds 0,1,2,3,4 --runs P3_multi_kan_h128_g5_o5_d0.2_ln_l4_r50_s0 P3_base-A_kan_h128_g5_o5_d0.2_ln_l4_r50_s0
+
+# B. MLP with SiLU instead of ReLU: 128 units (same width as the KAN) and 1536 units (same size as the KAN)
+--phase P3 --data multi --head mlp --act silu --seed 0
+--phase P3 --data multi --head mlp --act silu --hidden 1536 --seed 0
+--phase P3 --data multi --head mlp --act silu --seed 1
+--phase P3 --data multi --head mlp --act silu --hidden 1536 --seed 1
+--phase P3 --data multi --head mlp --act silu --seed 2
+--phase P3 --data multi --head mlp --act silu --hidden 1536 --seed 2
+--phase P3 --data base --head mlp --act silu --seed 0
+--phase P3 --data base --head mlp --act silu --hidden 1536 --seed 0
+--phase P3 --data base --head mlp --act silu --seed 1
+--phase P3 --data base --head mlp --act silu --hidden 1536 --seed 1
+--phase P3 --data base --head mlp --act silu --seed 2
+--phase P3 --data base --head mlp --act silu --hidden 1536 --seed 2
+
+# C. KAN again on SesameMulti and SesameBase, 3 seeds, with the phase label P5 (the phase 3 KAN runs and their
+#    numbers stay as they are). Weights were saved for seed 0 only, so the per-class spline share was known for
+#    seed 0 only. These runs log it for every fold, seed and class (Pester's point 5), and show how repeatable
+#    the training is.
+--phase P5 --data multi --head kan --seed 0
+--phase P5 --data multi --head kan --seed 1
+--phase P5 --data multi --head kan --seed 2
+--phase P5 --data base --head kan --seed 0
+--phase P5 --data base --head kan --seed 1
+--phase P5 --data base --head kan --seed 2

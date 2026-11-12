@@ -7,6 +7,7 @@ __pycache__/
 *.pth
 *.pt
 outputs/metadata/features.npz
+outputs/metadata/synthetic_v2_features.npz
 outputs/metadata/metadata.xlsx
 outputs/metadata/review/
 outputs/runs/*/weights/
@@ -18,5 +19,6 @@ outputs/queue_logs/
 
 # Grad-CAM pictures show dataset photos, some of which may not be shared
 outputs/figures/gradcam_*.png
+outputs/blind_recheck/images/
 
 paper_figures/out/

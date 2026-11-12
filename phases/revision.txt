@@ -1,0 +1,39 @@
+# Revision queue (November 2026): everything in one file, for 3 workers started at the same time:
+#   python run_queue.py phases\revision.txt --worker 0 --workers 3
+#   python run_queue.py phases\revision.txt --worker 1 --workers 3
+#   python run_queue.py phases\revision.txt --worker 2 --workers 3
+# It holds the same runs as phase5.txt and phase6.txt (do not run those as well), in this order:
+#   worker 0: makes the synthetic set (process_synthetic.py finalize, make_syn2_split.py), then
+#             its runs; the per-class spline share from the saved seed-0 models comes last
+#   workers 1 and 2: MLP-SiLU runs first; their multi_syn2 runs come after about 2 hours, when the
+#             new split file is long ready
+# 24 runs: 12 MLP-SiLU (P3), 6 SesameMulti + synthetic set (P3), 6 KAN for the per-class spline share
+# (P5). About 5 hours. Old runs are not touched. Lines are dealt out in turn: line 1 to worker 0, line 2 to
+# worker 1, line 3 to worker 2, line 4 to worker 0, and so on.
+@process_synthetic.py finalize --allow-fewer
+--phase P3 --data multi --head mlp --act silu --hidden 1536 --seed 1
+--phase P3 --data multi --head mlp --act silu --seed 2
+@make_syn2_split.py
+--phase P3 --data base --head mlp --act silu --seed 0
+--phase P3 --data multi --head mlp --act silu --hidden 1536 --seed 2
+--phase P3 --data multi_syn2 --head kan --seed 0
+--phase P3 --data base --head mlp --act silu --hidden 1536 --seed 0
+--phase P3 --data base --head mlp --act silu --hidden 1536 --seed 1
+--phase P3 --data multi_syn2 --head mlp --seed 0
+--phase P3 --data base --head mlp --act silu --seed 1
+--phase P3 --data base --head mlp --act silu --seed 2
+--phase P3 --data multi --head mlp --act silu --seed 0
+--phase P3 --data multi_syn2 --head kan --seed 1
+--phase P3 --data multi_syn2 --head kan --seed 2
+--phase P3 --data multi --head mlp --act silu --hidden 1536 --seed 0
+--phase P3 --data multi_syn2 --head mlp --seed 1
+--phase P3 --data multi_syn2 --head mlp --seed 2
+--phase P3 --data multi --head mlp --act silu --seed 1
+--phase P5 --data multi --head kan --seed 1
+--phase P3 --data base --head mlp --act silu --hidden 1536 --seed 2
+--phase P5 --data multi --head kan --seed 0
+--phase P5 --data base --head kan --seed 0
+--phase P5 --data multi --head kan --seed 2
+@kan_curves.py --class-shares-only --folds 0,1,2,3,4 --runs P3_multi_kan_h128_g5_o5_d0.2_ln_l4_r50_s0 P3_base-A_kan_h128_g5_o5_d0.2_ln_l4_r50_s0
+--phase P5 --data base --head kan --seed 1
+--phase P5 --data base --head kan --seed 2

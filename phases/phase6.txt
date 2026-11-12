@@ -1,0 +1,10 @@
+# Phase 6 - SesameMulti + the synthetic set (multi_syn2), made from text prompts only.
+# Needs outputs/splits/splits_multi_syn2.csv: run   python process_synthetic.py finalize   and then
+# python make_syn2_split.py   first. About 1.5 hours with 3 workers.
+# Same heads and seeds as phase 3.
+--phase P3 --data multi_syn2 --head kan --seed 0
+--phase P3 --data multi_syn2 --head mlp --seed 0
+--phase P3 --data multi_syn2 --head kan --seed 1
+--phase P3 --data multi_syn2 --head mlp --seed 1
+--phase P3 --data multi_syn2 --head kan --seed 2
+--phase P3 --data multi_syn2 --head mlp --seed 2

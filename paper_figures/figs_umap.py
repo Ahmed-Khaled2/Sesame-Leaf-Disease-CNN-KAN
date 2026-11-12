@@ -2,11 +2,13 @@
 
 Fig. 2 (Section III-A): field photos vs. the original MSLD laboratory photos vs. the same photos after background
 compositing, one panel per class (Bacterial Blight, Healthy Leaf).
-Fig. 8 (Section IV-G): real vs. Gemini-generated Phyllody and Powdery Mildew images, one joint UMAP.
+Fig. 8 (Section IV-G): real vs. Gemini-generated Phyllody and Powdery Mildew images, one joint UMAP. The synthetic
+images and their features come from synthetic_v2.csv and synthetic_v2_features.npz (made by process_synthetic.py).
 
 Features: features.npz written by build_metadata.py (ResNet50, ImageNet weights, 224x224 input; view 0 = original
 orientation). The same file holds the original laboratory photos (lab_files / lab_feats).
-features.npz is not included in the repository (it is computed from the images); run build_metadata.py first.
+features.npz and synthetic_v2_features.npz are not included in the repository (they are computed from the images);
+run build_metadata.py and process_synthetic.py finalize first.
 Run from the repository root:
     python paper_figures/figs_umap.py
 Needs: numpy, pandas, matplotlib, umap-learn (pip install umap-learn).
@@ -41,6 +43,19 @@ lab_feat = dict(zip([str(p) for p in z["lab_files"]], z["lab_feats"][:, 0, :].as
 m = pd.read_csv(META + "metadata.csv")
 m = m[m.in_multi & ~m.excluded.fillna(False).astype(bool)]
 print("rows used:", len(m), m.groupby(["source", "cls"]).size().to_dict())
+
+
+def real_matrix(cls):
+    return np.stack([feat[u] for u in m[(m.cls == cls) & ~m.is_synthetic].uid])
+
+
+zs = np.load(META + "synthetic_v2_features.npz", allow_pickle=True)
+syn_feat = dict(zip(zs["uids"], zs["feats"][:, 0, :].astype(np.float32)))
+sv = pd.read_csv(META + "synthetic_v2.csv")
+
+
+def syn_matrix(cls):
+    return np.stack([syn_feat[u] for u in sv[sv.cls == cls].uid])
 
 
 def l2(x):
@@ -105,8 +120,8 @@ groups = [("Phyllody Infected", False, "Phyllody, real"), ("Phyllody Infected", 
           ("Powdery Mildew", False, "Powdery Mildew, real"), ("Powdery Mildew", True, "Powdery Mildew, synthetic")]
 X, idx = [], []
 for cls, syn, name in groups:
-    g = m[(m.cls == cls) & (m.is_synthetic == syn)]
-    X.append(np.stack([feat[u] for u in g.uid])); idx.append(len(g))
+    x = syn_matrix(cls) if syn else real_matrix(cls)
+    X.append(x); idx.append(len(x))
 e = embed(np.vstack(X))
 fig, ax = plt.subplots(figsize=(3.5, 2.0))
 start = 0
@@ -126,8 +141,7 @@ fig.savefig(f"{FIG}/fig8_umap_synthetic.png")
 plt.close(fig)
 # share of synthetic images whose nearest neighbour (same class, real + synthetic pool) is another synthetic image
 for cls in ("Phyllody Infected", "Powdery Mildew"):
-    r = np.stack([feat[u] for u in m[(m.cls == cls) & ~m.is_synthetic].uid])
-    s = np.stack([feat[u] for u in m[(m.cls == cls) & m.is_synthetic].uid])
+    r, s = real_matrix(cls), syn_matrix(cls)
     sim_ss = l2(s) @ l2(s).T; np.fill_diagonal(sim_ss, -1)
     nn_syn = sim_ss.max(1) > (l2(s) @ l2(r).T).max(1)
     dist[f"{cls[:2].lower()}_syn_nn_is_syn_pct"] = float(nn_syn.mean() * 100)

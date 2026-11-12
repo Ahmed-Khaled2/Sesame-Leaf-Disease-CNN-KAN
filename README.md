@@ -2,10 +2,11 @@
 
 Code, data splits, results and synthetic images for the paper:
 
-> A. Khaled et al., "Sesame Leaf Disease Detection Using a Hybrid CNN-KAN Architecture," manuscript under review, 2026.
+> A. Khaled et al., "Do Kolmogorov-Arnold Network Classifier Heads Improve Plant Disease Recognition? A Controlled
+> Study on Multi-Source Sesame Leaf Images," manuscript, 2026.
 
-The study compares a Kolmogorov-Arnold Network (KAN) classification head with MLP and linear heads on a pretrained
-ResNet50 backbone, for four sesame leaf classes: Bacterial Blight, Healthy Leaf, Phyllody and Powdery Mildew.
+The study compares a Kolmogorov-Arnold Network (KAN) classification head with MLP heads (ReLU or SiLU) and a linear
+head on a pretrained ResNet50 backbone, for four sesame leaf classes: Bacterial Blight, Healthy Leaf, Phyllody and Powdery Mildew.
 All results come from held-out test folds of group-aware 5-fold cross-validation, repeated with 3 seeds.
 
 ## Main results
@@ -18,6 +19,8 @@ Test accuracy (%), mean ± standard deviation over 15 fold-runs (3 seeds x 5 fol
 | KAN (128 hidden, grid 5, order 5) | 95.6 ± 1.9 | 92.3 ± 1.1 |
 | MLP (128 hidden) | 96.3 ± 1.9 | 92.4 ± 1.2 |
 | MLP (1,536 hidden, same size as the KAN head) | 95.4 ± 1.6 | 92.3 ± 1.1 |
+| MLP with SiLU (128 hidden) | 95.9 ± 1.8 | 92.1 ± 1.5 |
+| MLP with SiLU (1,536 hidden) | 95.7 ± 2.3 | 92.4 ± 1.8 |
 | Linear | 95.8 ± 1.9 | 92.2 ± 1.3 |
 | KAN without LayerNorm | 96.5 ± 1.8 | 92.7 ± 1.3 |
 | Spline-only KAN | 96.2 ± 1.8 | 92.9 ± 1.9 |
@@ -34,17 +37,19 @@ all p-values above 0.3). All tables, paired tests and equivalence tests are in
 | `build_metadata.py` | Step 1: one table of all images, with near-duplicate groups |
 | `make_splits.py` | Step 2: the fixed group-aware 5-fold splits |
 | `make_extra_splits.py` | Extra splits for the leakage check and the source check |
+| `process_synthetic.py`, `make_syn2_split.py` | The synthetic images: Gemini images to training tiles, and their split file |
 | `train.py` | Step 3: one run = one dataset, one head, one seed, all 5 folds |
 | `run_queue.py` | Runs the lines of a phase file, split over several terminals |
 | `phases/` | The exact runs of each phase (phase 3 is the main comparison of the paper) |
 | `summarize.py` | Step 4: collects all runs into `outputs/all_runs.xlsx`, with the statistics |
-| `kan_curves.py`, `gradcam.py`, `bench_speed.py` | Learned KAN functions, Grad-CAM maps, measured speed (they share `analysis_common.py`) |
+| `kan_curves.py`, `gradcam.py`, `bench_speed.py` | Learned KAN functions and spline shares (Fig. 7), Grad-CAM maps, measured speed (they share `analysis_common.py`) |
+| `blind_recheck.py` | Blinded second labelling of 150 real photos, to measure how consistent the labels are |
 | `exclude.csv` | Images left out of every experiment, with the reason |
-| `outputs/` | Our results: image table, splits, all 143 runs and the summary workbook |
-| `synthetic_images/` | The 186 Gemini-generated training images |
-| `prompts/PROMPTS.md` | The prompts used to generate them |
+| `outputs/` | Our results: image table, splits, all 161 runs, the summary workbook and the label check |
+| `synthetic_images/` | The 186 Gemini-generated training images, made from text prompts only |
+| `prompts/` | The prompts used to generate them (`PROMPTS.md`) and the prompt of every Gemini image (`image_prompts.csv`) |
 | `dataset_construction/` | Notebooks used to build the image folders from the source datasets |
-| `paper_figures/` | Scripts for Figs. 2, 3, 5, 6, 7 and 8 of the paper |
+| `paper_figures/` | Scripts for Figs. 2, 3, 5, 6 and 8 of the paper (Fig. 7 comes from `kan_curves.py --paper-fig7`) |
 
 ## Data
 
@@ -79,9 +84,11 @@ The scripts read the images from this layout (the notebooks in `dataset_construc
         Healthy Leaf/
         Phyllody Infected/
         Powdery Mildew/
+      MSLD300_300/<class>/                     original MSLD lab photos (only used to find near-duplicates)
+    Synthetic Data v2/
+      trial_a_224/
         Phyllody Infected - Synthetic/         copy of synthetic_images/trial_a_224/...
         Powdery Mildew - Synthetic/
-      MSLD300_300/<class>/                     original MSLD lab photos (only used to find near-duplicates)
     Sesame_Preprocessing_Study/
       Trial_A (Resize)/CombinedPaper_Clean/<class>/                                   SesameBase
       Trial_B (Resize + Contrast Stretching)/CombinedPaper_Clean/<class>/             phase 1 only
@@ -112,7 +119,9 @@ scikit-learn 1.7.2, on Windows with one NVIDIA GeForce RTX 5060 GPU. The KAN lay
    writes `outputs/metadata/` (our `metadata.csv` is already included).
 2. **Splits:** `python make_splits.py` and `python make_extra_splits.py`.
    The splits we used are already in `outputs/splits/`, and both scripts refuse to overwrite them unless you pass
-   `--force`. The split seed is 42.
+   `--force`. The split seed is 42. The split of the synthetic images, `splits_multi_syn2.csv`, was made by
+   `process_synthetic.py finalize` and `make_syn2_split.py`; it keeps the roles of all real photos from
+   `splits_multi.csv`.
 3. **Training:** each line of a phase file is one `train.py` run. Start one worker per terminal:
 
    ```bash
@@ -122,47 +131,64 @@ scikit-learn 1.7.2, on Windows with one NVIDIA GeForce RTX 5060 GPU. The KAN lay
    ```
 
    A single run by hand: `python train.py --data multi --head kan --seed 0`.
-   The training seeds are 0, 1 and 2. Phase 3 (54 runs) took about 10 hours with 3 workers on one RTX 5060.
+   The training seeds are 0, 1 and 2. Phase 3 (48 runs) takes about 9 hours with 3 workers on one RTX 5060.
 
    | Phase file | Runs |
    |---|---|
    | `phase0.txt` | One fold, to check the setup and the time per fold |
    | `phase1.txt` | Preprocessing trials A to D and backbones, SesameBase, frozen backbone (chosen on validation data) |
    | `phase2.txt` | Head settings on SesameMulti, 8 KAN and 8 MLP settings (chosen on validation data) |
-   | `phase3.txt` | The main comparison: all heads, 3 seeds, SesameBase, SesameMulti and SesameMulti+Syn |
+   | `phase3.txt` | The main comparison: all heads, 3 seeds, SesameBase and SesameMulti |
    | `phase4.txt` | Extra checks: EfficientNet-B0, source check, less training data, random splits, figures and speed |
+   | `phase5.txt` | MLP with SiLU (128 and 1,536 hidden units), and KAN runs that log the spline share of every class (P5) |
+   | `phase6.txt` | SesameMulti+Syn: KAN and MLP with the synthetic images |
+   | `revision.txt` | Phases 5 and 6 in one file, for 3 workers at once |
 
-   `outputs/runs/` already holds our 143 runs, and finished runs are skipped. To train again, move
+   `outputs/runs/` already holds our 161 runs, and finished runs are skipped. To train again, move
    `outputs/runs/` somewhere else first (keep `outputs/splits/`).
 4. **Summary and statistics:** `python summarize.py` writes `outputs/all_runs.xlsx`.
 5. **Analyses:** `python kan_curves.py` and `python gradcam.py` need the saved weights of the seed-0 runs, which are
    not included (about 2 GB); `phase3.txt` and `phase4.txt` save them with `--save-weights best`.
+   `python kan_curves.py --paper-fig7` draws Fig. 7 (its data is in `outputs/figures/fig7_kan_curves_paper.npz`), and
+   `python kan_curves.py --class-shares-only` gives the spline share of every class for the saved models.
    `python bench_speed.py` measures the speed with ImageNet weights, so it needs no trained weights.
 6. **Paper figures:** `python paper_figures/fig_mlp_head.py`, `python paper_figures/figs_results.py` and
-   `python paper_figures/figs_umap.py` (this one needs `outputs/metadata/features.npz` from step 1).
+   `python paper_figures/figs_umap.py` (this one needs `outputs/metadata/features.npz` from step 1 and
+   `outputs/metadata/synthetic_v2_features.npz` from `process_synthetic.py finalize`).
    The figures are saved in `paper_figures/out/`.
+7. **Label check:** `python blind_recheck.py make`, then `label` (a page in the browser shows one photo at a time),
+   then `score`. Our answers, the key and the results are in `outputs/blind_recheck/`; the photos are not included.
 
 ## Result files
 
 - **`outputs/all_runs.xlsx`** has one sheet per table: `runs`, `folds`, `phase1_choice`, `phase2_choice`,
   `by_config` (the tables of the paper), `comparisons` (paired head-vs-head tests: mean difference, 95% confidence
   interval, the corrected resampled t-test of Nadeau and Bengio, and the TOST equivalence test),
-  `other_comparisons` (with vs. without synthetic images, frozen vs. fine-tuned), `kan_check`, `kan_knockout`,
-  `speed` and `kan_curves`.
+  `other_comparisons` (with vs. without synthetic images, frozen vs. fine-tuned), `kan_check`, `kan_class_share`
+  (spline share of every class, per fold), `kan_knockout`, `speed`, `kan_curves` and `kan_curves_class`.
 - **`outputs/runs/<run name>/`** has the files of one run: `config.json` (all settings, library versions, and
   fingerprints of the split file and the code), `folds.csv` (scores per fold), `epochs.csv` (every epoch),
-  `per_class.csv`, `confusion.csv`, `summary.csv`, `kan_check.csv` and `kan_knockout.csv` (KAN runs), and
+  `per_class.csv`, `confusion.csv`, `summary.csv`, `kan_check.csv`, `kan_class_share.csv` and `kan_knockout.csv`
+  (KAN runs; `kan_class_share.csv` only in the runs trained after it was added), and
   `run_log.xlsx` (all tables in one file, including the prediction for every test photo and the class balancing of
   every epoch).
 - **Run names** read like this: `P3_multi_kan_h128_g5_o5_d0.2_ln_l4_r50_s0` = phase 3, SesameMulti, KAN head with 128
   hidden units, grid 5, order 5, dropout 0.2, LayerNorm, layer4 fine-tuned, ResNet50, seed 0. Other parts:
-  `base-A` = SesameBase with preprocessing trial A, `nobase` = spline-only KAN, `none` = no LayerNorm, `frozen` = frozen backbone, `effb0` = EfficientNet-B0,
+  `base-A` = SesameBase with preprocessing trial A, `multi_syn2` = SesameMulti+Syn, `silu` = MLP with SiLU,
+  `nobase` = spline-only KAN, `none` = no LayerNorm, `frozen` = frozen backbone, `effb0` = EfficientNet-B0,
   `rand` = photo-level random split, `f25`/`f50` = 25% or 50% of the training photos, `bbhl_cross` = the source check.
-- **`outputs/metadata/metadata.csv`** has one row per image: class, source, synthetic flag, the Gemini image a tile
-  was cut from, MD5 hash, near-duplicate group (`group_id`) and nearest look-alike.
+  `P5` runs repeat the main KAN runs to log the spline share of every class in every fold and seed.
+- **`outputs/metadata/metadata.csv`** has one row per real image: class, source, MD5 hash, near-duplicate group
+  (`group_id`) and nearest look-alike. It also has 186 rows of synthetic tiles (`is_synthetic`) that no run in this
+  repository uses: `train.py` drops synthetic rows for every dataset except `multi_syn2`.
+- **`outputs/metadata/synthetic_v2.csv`** has one row per synthetic tile: the Gemini image it was cut from, its batch,
+  and its nearest real photo with their cosine similarity. `synthetic_v2_raw.csv` lists every Gemini image, and
+  `synthetic_v2_nearcopy.csv` and `synthetic_v2_duplicates.csv` the near-copy checks.
 - **`outputs/splits/`**: `splits_multi.csv` and `splits_base.csv` are the main splits; `*_random.csv` are for the
-  leakage check and `splits_bbhl_*.csv` for the source check. The columns `fold0` to `fold4` give the role of each
-  image (train, val or test) in each fold.
+  leakage check, `splits_bbhl_*.csv` for the source check and `splits_multi_syn2.csv` for SesameMulti+Syn. The columns
+  `fold0` to `fold4` give the role of each image (train, val, test, or unused) in each fold.
+- **`outputs/blind_recheck/`**: the blinded second labelling of 150 real photos (answer sheet, key and results:
+  91.3% agreement, Cohen's kappa 0.88).
 
 The result files are the ones written by the runs. The only change: in the split tables, the `\` in the image paths
 was replaced by `/`, so the code also runs on Linux and macOS. The split fingerprints (computed from the `uid` and
@@ -170,11 +196,11 @@ fold columns) did not change. The logs show the local folder of the computer tha
 
 ## Synthetic images
 
-[`synthetic_images/`](synthetic_images) holds 75 Phyllody and 111 Powdery Mildew images, generated on 11 April 2026
-in the Gemini app with Nano Banana 2 (Gemini 3.1 Flash Image). They were used in training folds only, never for
-validation or testing. `original/` has the tiles as kept after cleaning; `trial_a_224/` has the same tiles resized to
-224 x 224, exactly as used for training. The images were checked visually by the first author, but not by a plant
-pathologist. The prompts are in [`prompts/PROMPTS.md`](prompts/PROMPTS.md).
+[`synthetic_images/`](synthetic_images) holds 75 Phyllody and 111 Powdery Mildew images, generated on 9 November
+2026 in the Gemini app (model setting "Auto (Gemini 3 models)") from text prompts alone: no photo was uploaded.
+They were used in training folds only, never for validation or testing. `original/` has the tiles at full size, as
+kept after the visual check; `trial_a_224/` has the same tiles resized to 224 x 224, exactly as used for training.
+They were checked visually, but not by a plant pathologist. The prompts are in [`prompts/PROMPTS.md`](prompts/PROMPTS.md).
 
 ## Dataset construction notebooks
 
@@ -197,9 +223,10 @@ If you use this code or data, please cite the paper:
 
 ```bibtex
 @unpublished{khaled2026sesame,
-  title  = {Sesame Leaf Disease Detection Using a Hybrid {CNN-KAN} Architecture},
+  title  = {Do {Kolmogorov-Arnold} Network Classifier Heads Improve Plant Disease Recognition? {A} Controlled
+            Study on Multi-Source Sesame Leaf Images},
   author = {Khaled, Ahmed and others},
-  note   = {Manuscript under review},
+  note   = {Manuscript},
   year   = {2026}
 }
 ```
