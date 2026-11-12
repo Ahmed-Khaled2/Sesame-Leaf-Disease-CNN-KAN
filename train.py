@@ -11,13 +11,18 @@ AdamW, same learning rates, batch 64, 50 epochs), with these fixes:
      so KAN inputs sit inside the spline grid.  --norm none = your original heads.
   5. Best epoch is chosen on the VALIDATION set. The test set is never used to choose
      anything - its scores are only logged for the curves.
-  6. KAN checks after every fold: how much the splines contribute (kan_check) and what
+  6. KAN checks after every fold: how much the splines contribute (kan_check), how much of
+     what each class output receives comes from the splines (kan_class_share), and what
      happens to test accuracy when the spline part or the base part is switched off
      (kan_knockout).  --kan-base off trains a spline-only KAN (base term fixed at zero).
+  7. --act silu gives the MLP head SiLU instead of ReLU (the MLP-SiLU baseline).
+  8. --data multi_syn2 = SesameMulti + the second synthetic set (made without any real photo
+     as a sample). Its images come in 5 batches and batch k is never used in fold k, so every
+     fold trains on 4 batches (see make_syn2_split.py).
 
 Everything is logged (see outputs/runs/<run name>/):
   run_log.xlsx   config | epochs | folds | per_class | confusion | predictions |
-                 sampling | kan_check | kan_knockout | model_info | summary
+                 sampling | kan_check | kan_class_share | kan_knockout | model_info | summary
   *.csv          the same tables (epochs.csv is written after every epoch)
   curves.png     mean curves over the finished folds
   console_log.txt, STATUS.txt, weights/ (only with --save-weights best)
@@ -28,7 +33,9 @@ kept and it continues from the next fold.
 Examples:
   python train.py --data multi --head kan --seed 0
   python train.py --data multi --head mlp --hidden 1536 --seed 0        (size-matched MLP)
+  python train.py --data multi --head mlp --act silu --seed 0           (MLP-SiLU)
   python train.py --data multi_syn --head kan --seed 1
+  python train.py --data multi_syn2 --head kan --seed 1                 (second synthetic set)
   python train.py --data base --preproc C --head mlp --unfreeze none --seed 0
   python train.py --data multi --head kan --norm none --seed 0          (original KAN)
   python train.py --data multi --head kan --kan-base off --seed 0       (spline-only KAN)
@@ -75,7 +82,8 @@ BACKBONE_SHORT = {"resnet18": "r18", "resnet34": "r34", "resnet50": "r50", "resn
 FEATURE_DIM = {"resnet18": 512, "resnet34": 512, "resnet50": 2048, "resnet101": 2048, "efficientnet_b0": 1280}
 # what "--unfreeze layer4" trains for each family (the last part of the backbone)
 UNFROZEN_PART = {"resnet": "layer4", "efficientnet": "features[6], features[7], features[8] (last two stages + final conv)"}
-DATA_CHOICES = ["base", "multi", "multi_syn", "bbhl_cross", "bbhl_mixed"]
+DATA_CHOICES = ["base", "multi", "multi_syn", "multi_syn2", "bbhl_cross", "bbhl_mixed"]
+SYN_DATA = ("multi_syn", "multi_syn2")       # the datasets that keep their synthetic rows
 
 
 # ==========================================================================
@@ -99,6 +107,8 @@ def get_args(argv=None):
     ap.add_argument("--norm", default="ln", choices=["ln", "none"], help="LayerNorm before each head layer")
     ap.add_argument("--kan-base", default="on", choices=["on", "off"],
                     help="KAN base term (SiLU + linear). off = spline-only KAN")
+    ap.add_argument("--act", default="relu", choices=["relu", "silu"],
+                    help="activation of the MLP head. silu = the MLP-SiLU baseline")
     ap.add_argument("--backbone", default="resnet50", choices=list(BACKBONES))
     ap.add_argument("--unfreeze", default="layer4", choices=["layer4", "none"])
     ap.add_argument("--seed", type=int, default=0)
@@ -124,6 +134,8 @@ def get_args(argv=None):
         ap.error("--preproc B/C/D only exists for --data base")
     if a.kan_base == "off" and a.head != "kan":
         ap.error("--kan-base off only makes sense with --head kan")
+    if a.act != "relu" and a.head != "mlp":
+        ap.error("--act only applies to --head mlp")
     if a.split == "random" and a.data not in ("base", "multi", "multi_syn"):
         ap.error("--split random exists only for base / multi / multi_syn")
     if not 0 < a.train_frac <= 1:
@@ -142,6 +154,8 @@ def run_name(a):
     parts = [a.phase, data, a.head]
     if a.head != "linear":
         parts.append("h" + "x".join(map(str, a.hidden_list)))
+    if a.head == "mlp" and a.act != "relu":
+        parts.append(a.act)                  # ReLU runs keep their old names
     if a.head == "kan":
         parts += [f"g{a.grid}", f"o{a.order}"] + (["nobase"] if a.kan_base == "off" else [])
     parts += [f"d{a.dropout}", a.norm, "l4" if a.unfreeze == "layer4" else "frozen",
@@ -157,7 +171,7 @@ def run_name(a):
 # Data
 # ==========================================================================
 def split_file(a):
-    if a.data in ("bbhl_cross", "bbhl_mixed"):
+    if a.data in ("bbhl_cross", "bbhl_mixed", "multi_syn2"):
         return SPLIT_DIR / f"splits_{a.data}.csv"
     name = "splits_base" if a.data == "base" else "splits_multi"
     return SPLIT_DIR / (name + ("_random" if a.split == "random" else "") + ".csv")
@@ -169,7 +183,7 @@ def load_split(a):
         raise SystemExit(f"{path} not found - run make_splits.py (and make_extra_splits.py) first.")
     sp = pd.read_csv(path, keep_default_na=False)
     sp["is_synthetic"] = sp.is_synthetic.astype(str).str.lower().isin(["true", "1"])
-    if a.data != "multi_syn":
+    if a.data not in SYN_DATA:
         sp = sp[~sp.is_synthetic].reset_index(drop=True)
     if a.data == "base" and a.preproc != "A":
         root = PREPROC_TRIALS[a.preproc]
@@ -308,6 +322,8 @@ class HybridNet(nn.Module):
             self.trainable_backbone = last_part
         self.is_resnet = a.backbone.startswith("resnet")
         self.head_type, self.norm = a.head, a.norm
+        # MLP hidden activation (runs made before --act existed have no "act" -> ReLU, as they were trained)
+        self.act = F.silu if getattr(a, "act", "relu") == "silu" else F.relu
         self.dropout = nn.Dropout(a.dropout)
         dims = [feat_dim] + a.hidden_list + [n_classes]
 
@@ -352,7 +368,7 @@ class HybridNet(nn.Module):
     def head(self, f):
         """GP heads when --norm none:
              KAN: Dropout -> KAN(efficient_kan)
-             MLP: Dropout -> Linear -> ReLU -> Dropout -> Linear
+             MLP: Dropout -> Linear -> ReLU -> Dropout -> Linear   (--act silu: SiLU instead of ReLU)
            With --norm ln a LayerNorm goes in front of every head layer (the first one before the Dropout)."""
         if self.head_type == "kan" and self.norm == "none":
             return self.kan(self.dropout(f))
@@ -372,7 +388,7 @@ class HybridNet(nn.Module):
                 x = self.dropout(x)
             x = lin(x)
             if i < n - 1:
-                x = self.dropout(F.relu(x))
+                x = self.dropout(self.act(x))
         return x
 
     def forward(self, x):
@@ -399,7 +415,7 @@ def describe_head(a, n_classes):
             steps.append(f"Dropout({a.dropout})")
         steps.append(f"Linear({d_in}->{d_out})")
         if i < len(dims) - 2:
-            steps += ["ReLU", f"Dropout({a.dropout})"]
+            steps += ["SiLU" if a.act == "silu" else "ReLU", f"Dropout({a.dropout})"]
     return " -> ".join(steps)
 
 
@@ -473,6 +489,35 @@ def kan_check(model, loader, device, fold):
 
 
 @torch.no_grad()
+def kan_class_share(model, loader, device, fold, classes):
+    """Per class: how much of what the class output receives comes from the splines.
+    Last KAN layer, test images, best weights. For every connection i -> class j:
+    mean |spline_ji(x_i)| and mean |w_ji * SiLU(x_i)| over the test images; the share is
+    sum_i spline / (sum_i spline + sum_i base). Same definition as kan_curves.py."""
+    layer = model.kan_layers[-1]
+    model.eval()
+    store = []
+    hook = layer.register_forward_pre_hook(lambda m, inp: store.append(inp[0].detach().float()))
+    for x, _ in loader:
+        model(x.to(device))
+    hook.remove()
+    X = torch.cat(store)
+    B = layer.b_splines(X)                                   # (N, in, coeff)
+    S = layer.scaled_spline_weight                           # (out, in, coeff)
+    act = layer.base_activation(X)                           # (N, in)
+    rows, tot_s, tot_b = [], 0.0, 0.0
+    for j, c in enumerate(classes):
+        s = torch.einsum("nic,ic->ni", B, S[j]).abs().mean(0).sum().item()
+        b = (act * layer.base_weight[j]).abs().mean(0).sum().item()
+        tot_s, tot_b = tot_s + s, tot_b + b
+        rows.append(dict(fold=fold, cls=c, n_test_images=X.size(0), sum_mean_abs_spline=s, sum_mean_abs_base=b,
+                         spline_share=s / max(s + b, 1e-12)))
+    rows.append(dict(fold=fold, cls="all classes", n_test_images=X.size(0), sum_mean_abs_spline=tot_s,
+                     sum_mean_abs_base=tot_b, spline_share=tot_s / max(tot_s + tot_b, 1e-12)))
+    return rows
+
+
+@torch.no_grad()
 def kan_knockout(model, loader, device, n_classes, fold):
     """Test scores of the trained KAN when one part of every KAN layer is switched off.
     If removing the splines changes nothing, the KAN works like a plain SiLU network."""
@@ -521,7 +566,8 @@ def macs_info(model, device):
 # Logging to CSV / Excel
 # ==========================================================================
 class RunLogger:
-    TABLES = ["epochs", "folds", "per_class", "confusion", "predictions", "sampling", "kan_check", "kan_knockout"]
+    TABLES = ["epochs", "folds", "per_class", "confusion", "predictions", "sampling", "kan_check",
+              "kan_class_share", "kan_knockout"]
 
     def __init__(self, run_dir):
         self.dir = run_dir
@@ -750,6 +796,7 @@ def run_fold(a, k, sp, classes, cache, device, logger, log, run_dir):
     model.load_state_dict(best_state)
     if model.kan_layers:
         logger.add("kan_check", kan_check(model, test_loader, device, k))
+        logger.add("kan_class_share", kan_class_share(model, test_loader, device, k, classes))
         logger.add("kan_knockout", kan_knockout(model, test_loader, device, n_classes, k))
     if a.save_weights == "best":
         wdir = run_dir / "weights"

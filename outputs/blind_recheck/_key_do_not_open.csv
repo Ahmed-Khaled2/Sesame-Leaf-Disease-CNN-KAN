@@ -1,0 +1,151 @@
+image,uid,cls,source,group_id,file
+img_001.jpg,BB/IMG_2906_jpg.rf.05e74717e5d4652c0c22b71d5cd55a08.jpg,Bacteria Blight Infected,RSFD,G0800,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG_2906_jpg.rf.05e74717e5d4652c0c22b71d5cd55a08.jpg
+img_002.jpg,PM/IMG_0427_jpg.rf.5f3eeb7335ed23f23a71b98aa79dec08.jpg,Powdery Mildew,RSFD,G0088,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0427_jpg.rf.5f3eeb7335ed23f23a71b98aa79dec08.jpg
+img_003.jpg,HL/IMG20250515091406_bg1.jpg,Healthy Leaf,MSLD,G1037,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515091406_bg1.jpg
+img_004.jpg,HL/00163.jpg,Healthy Leaf,ERFD,G0957,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00163.jpg
+img_005.jpg,HL/00103.jpg,Healthy Leaf,ERFD,G0918,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00103.jpg
+img_006.jpg,BB/20210814_105640_jpg.rf.4921231b8a79991055925e9fba4874e1.jpg,Bacteria Blight Infected,RSFD,G0034,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210814_105640_jpg.rf.4921231b8a79991055925e9fba4874e1.jpg
+img_007.jpg,PM/IMG_3279_jpg.rf.010284b427e55f6f731244abe3ffed43.jpg,Powdery Mildew,RSFD,G1412,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3279_jpg.rf.010284b427e55f6f731244abe3ffed43.jpg
+img_008.jpg,BB/IMG20250517125031_bg1.jpg,Bacteria Blight Infected,MSLD,G0720,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517125031_bg1.jpg
+img_009.jpg,HL/IMG20250516165043_bg1.jpg,Healthy Leaf,MSLD,G1212,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250516165043_bg1.jpg
+img_010.jpg,PM/20210826_165602_jpg.rf.74794c45d965de7d7af527dd9184436c.jpg,Powdery Mildew,RSFD,G0022,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_20210826_165602_jpg.rf.74794c45d965de7d7af527dd9184436c.jpg
+img_011.jpg,HL/IMG20250515124020_bg1.jpg,Healthy Leaf,MSLD,G1176,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515124020_bg1.jpg
+img_012.jpg,HL/IMG20250516173547_bg1.jpg,Healthy Leaf,MSLD,G1255,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250516173547_bg1.jpg
+img_013.jpg,PM/IMG_0248_jpg.rf.1342866e5ddd6054c92e4e647579257a.jpg,Powdery Mildew,RSFD,G0082,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0248_jpg.rf.1342866e5ddd6054c92e4e647579257a.jpg
+img_014.jpg,PM/IMG_0432_jpg.rf.ab777334ee6b84eecdd19b0804b4e7bc.jpg,Powdery Mildew,RSFD,G1406,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0432_jpg.rf.ab777334ee6b84eecdd19b0804b4e7bc.jpg
+img_015.jpg,PI/00123.jpg,Phyllody Infected,ERFD,G1335,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00123.jpg
+img_016.jpg,PM/IMG_0299_jpg.rf.3a7a78f6cee7439ac8d142f27e2aca83.jpg,Powdery Mildew,RSFD,G1399,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0299_jpg.rf.3a7a78f6cee7439ac8d142f27e2aca83.jpg
+img_017.jpg,HL/IMG20250515100357_bg1.jpg,Healthy Leaf,MSLD,G1086,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515100357_bg1.jpg
+img_018.jpg,PI/00039.jpg,Phyllody Infected,ERFD,G1302,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00039.jpg
+img_019.jpg,PM/20210826_165819-0-_jpg.rf.3ad4297a23ceab2b2ef1cd72915371e1.jpg,Powdery Mildew,RSFD,G0023,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_20210826_165819-0-_jpg.rf.3ad4297a23ceab2b2ef1cd72915371e1.jpg
+img_020.jpg,PI/00147.jpg,Phyllody Infected,ERFD,G1351,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00147.jpg
+img_021.jpg,HL/00259.jpg,Healthy Leaf,ERFD,G1016,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00259.jpg
+img_022.jpg,PM/IMG_0217_jpg.rf.3a2c74ba81031a882981a790ce64c5c6.jpg,Powdery Mildew,RSFD,G0004,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0217_jpg.rf.3a2c74ba81031a882981a790ce64c5c6.jpg
+img_023.jpg,HL/IMG20250517124623_bg1.jpg,Healthy Leaf,MSLD,G1287,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250517124623_bg1.jpg
+img_024.jpg,PI/00018.jpg,Phyllody Infected,ERFD,G1295,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00018.jpg
+img_025.jpg,BB/IMG20250517103620_bg1.jpg,Bacteria Blight Infected,MSLD,G0565,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517103620_bg1.jpg
+img_026.jpg,PI/00243.jpg,Phyllody Infected,ERFD,G1392,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00243.jpg
+img_027.jpg,HL/IMG20250516170733_bg1.jpg,Healthy Leaf,MSLD,G1242,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250516170733_bg1.jpg
+img_028.jpg,HL/00248.jpg,Healthy Leaf,ERFD,G1015,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00248.jpg
+img_029.jpg,BB/00080.jpg,Bacteria Blight Infected,ERFD,G0167,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00080.jpg
+img_030.jpg,PI/00124.jpg,Phyllody Infected,ERFD,G1336,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00124.jpg
+img_031.jpg,HL/IMG20250515092913_bg1.jpg,Healthy Leaf,MSLD,G1047,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515092913_bg1.jpg
+img_032.jpg,BB/20210814_130744_jpg.rf.41acdda846275612fbbce77a409acc51.jpg,Bacteria Blight Infected,RSFD,G0402,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210814_130744_jpg.rf.41acdda846275612fbbce77a409acc51.jpg
+img_033.jpg,BB/20210804_141601_jpg.rf.1583331d05dcfe57d5ee14fd5889005f.jpg,Bacteria Blight Infected,RSFD,G0342,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210804_141601_jpg.rf.1583331d05dcfe57d5ee14fd5889005f.jpg
+img_034.jpg,BB/IMG20250517125453_bg1.jpg,Bacteria Blight Infected,MSLD,G0741,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517125453_bg1.jpg
+img_035.jpg,BB/20210814_132435_jpg.rf.edef9450ce94dad140019db709de3f3c.jpg,Bacteria Blight Infected,RSFD,G0039,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210814_132435_jpg.rf.edef9450ce94dad140019db709de3f3c.jpg
+img_036.jpg,PI/00040.jpg,Phyllody Infected,ERFD,G1303,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00040.jpg
+img_037.jpg,HL/IMG20250515125034_bg1.jpg,Healthy Leaf,MSLD,G1190,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515125034_bg1.jpg
+img_038.jpg,PI/00121.jpg,Phyllody Infected,ERFD,G1333,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00121.jpg
+img_039.jpg,BB/00285.jpg,Bacteria Blight Infected,ERFD,G0319,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00285.jpg
+img_040.jpg,PM/IMG_0202_jpg.rf.2051cfc02bf438e54ea8ae6edc1db1a1.jpg,Powdery Mildew,RSFD,G0005,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0202_jpg.rf.2051cfc02bf438e54ea8ae6edc1db1a1.jpg
+img_041.jpg,PM/IMG_0331_jpg.rf.4eb33927b7a165b0c53d067eec03eb77.jpg,Powdery Mildew,RSFD,G1400,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0331_jpg.rf.4eb33927b7a165b0c53d067eec03eb77.jpg
+img_042.jpg,BB/00157.jpg,Bacteria Blight Infected,ERFD,G0238,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00157.jpg
+img_043.jpg,HL/00085.jpg,Healthy Leaf,ERFD,G0902,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00085.jpg
+img_044.jpg,PI/00223.jpg,Phyllody Infected,ERFD,G1384,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00223.jpg
+img_045.jpg,PM/IMG_0431_jpg.rf.ac6e6bd272aacdbf0606a6ec3ecffdd2.jpg,Powdery Mildew,RSFD,G1405,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0431_jpg.rf.ac6e6bd272aacdbf0606a6ec3ecffdd2.jpg
+img_046.jpg,PI/00099.jpg,Phyllody Infected,ERFD,G1324,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00099.jpg
+img_047.jpg,HL/IMG20250516165531_bg1.jpg,Healthy Leaf,MSLD,G1219,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250516165531_bg1.jpg
+img_048.jpg,HL/00075.jpg,Healthy Leaf,ERFD,G0894,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00075.jpg
+img_049.jpg,PM/IMG_3344_jpg.rf.5ae0166c755159188c8398ab71c125dc.jpg,Powdery Mildew,RSFD,G1418,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3344_jpg.rf.5ae0166c755159188c8398ab71c125dc.jpg
+img_050.jpg,PI/00238.jpg,Phyllody Infected,ERFD,G1389,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00238.jpg
+img_051.jpg,PI/00022.jpg,Phyllody Infected,ERFD,G1297,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00022.jpg
+img_052.jpg,BB/20210814_142320_jpg.rf.11065152a03a641125637a3e745afc61.jpg,Bacteria Blight Infected,RSFD,G0428,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210814_142320_jpg.rf.11065152a03a641125637a3e745afc61.jpg
+img_053.jpg,BB/00079.jpg,Bacteria Blight Infected,ERFD,G0166,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00079.jpg
+img_054.jpg,PM/IMG_0241_jpg.rf.1ee41f58889dff4ac58dd4c7721a023a.jpg,Powdery Mildew,RSFD,G0012,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0241_jpg.rf.1ee41f58889dff4ac58dd4c7721a023a.jpg
+img_055.jpg,HL/IMG20250515112515_bg1.jpg,Healthy Leaf,MSLD,G1113,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515112515_bg1.jpg
+img_056.jpg,PI/00239.jpg,Phyllody Infected,ERFD,G1390,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00239.jpg
+img_057.jpg,HL/00107.jpg,Healthy Leaf,ERFD,G0922,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00107.jpg
+img_058.jpg,HL/IMG20250515121403_bg1.jpg,Healthy Leaf,MSLD,G1153,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515121403_bg1.jpg
+img_059.jpg,PI/00159.jpg,Phyllody Infected,ERFD,G1362,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00159.jpg
+img_060.jpg,BB/00077.jpg,Bacteria Blight Infected,ERFD,G0164,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00077.jpg
+img_061.jpg,BB/IMG20250517103146_bg1.jpg,Bacteria Blight Infected,MSLD,G0544,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517103146_bg1.jpg
+img_062.jpg,PI/00160.jpg,Phyllody Infected,ERFD,G1363,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00160.jpg
+img_063.jpg,PM/20210827_094309_jpg.rf.147bec941115d8cdf47ae9b8a5a0a610.jpg,Powdery Mildew,RSFD,G0081,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_20210827_094309_jpg.rf.147bec941115d8cdf47ae9b8a5a0a610.jpg
+img_064.jpg,PI/00078.jpg,Phyllody Infected,ERFD,G1313,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00078.jpg
+img_065.jpg,PI/00015.jpg,Phyllody Infected,ERFD,G1294,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00015.jpg
+img_066.jpg,BB/20210814_114438_jpg.rf.e85853a217a27afdbab1e5ce00d8fb9e.jpg,Bacteria Blight Infected,RSFD,G0394,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210814_114438_jpg.rf.e85853a217a27afdbab1e5ce00d8fb9e.jpg
+img_067.jpg,BB/IMG20250517102159_bg1.jpg,Bacteria Blight Infected,MSLD,G0510,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517102159_bg1.jpg
+img_068.jpg,PM/IMG_0354_jpg.rf.3fe7966637860d9ed2aaa660c50bd0b5.jpg,Powdery Mildew,RSFD,G1402,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0354_jpg.rf.3fe7966637860d9ed2aaa660c50bd0b5.jpg
+img_069.jpg,BB/IMG20250517105448_bg1.jpg,Bacteria Blight Infected,MSLD,G0648,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517105448_bg1.jpg
+img_070.jpg,PI/00161.jpg,Phyllody Infected,ERFD,G1364,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00161.jpg
+img_071.jpg,PM/IMG_0274_jpg.rf.73e5318d1c17a8e9a1e985e26cdba857.jpg,Powdery Mildew,RSFD,G1397,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0274_jpg.rf.73e5318d1c17a8e9a1e985e26cdba857.jpg
+img_072.jpg,BB/IMG20250517125231_bg1.jpg,Bacteria Blight Infected,MSLD,G0732,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517125231_bg1.jpg
+img_073.jpg,HL/IMG20250516175119_bg1.jpg,Healthy Leaf,MSLD,G1272,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250516175119_bg1.jpg
+img_074.jpg,HL/IMG20250515112358_bg1.jpg,Healthy Leaf,MSLD,G1110,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515112358_bg1.jpg
+img_075.jpg,PI/00218.jpg,Phyllody Infected,ERFD,G1382,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00218.jpg
+img_076.jpg,BB/20210804_142420_jpg.rf.aeab476427790cc025acab58e40a0178.jpg,Bacteria Blight Infected,RSFD,G0345,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210804_142420_jpg.rf.aeab476427790cc025acab58e40a0178.jpg
+img_077.jpg,PM/IMG_0384_jpg.rf.eefc7f67136ff52ad35da52c53e01367.jpg,Powdery Mildew,RSFD,G0017,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0384_jpg.rf.eefc7f67136ff52ad35da52c53e01367.jpg
+img_078.jpg,PM/IMG_3332_jpg.rf.158b3c2eb2c811d2efda8ba86db0a825.jpg,Powdery Mildew,RSFD,G1417,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3332_jpg.rf.158b3c2eb2c811d2efda8ba86db0a825.jpg
+img_079.jpg,PI/00033.jpg,Phyllody Infected,ERFD,G1298,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00033.jpg
+img_080.jpg,PM/20210827_094151_jpg.rf.0e9b71d5ad3209c78858e666b5cc0d9d.jpg,Powdery Mildew,RSFD,G0080,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_20210827_094151_jpg.rf.0e9b71d5ad3209c78858e666b5cc0d9d.jpg
+img_081.jpg,HL/IMG20250515094640_bg1.jpg,Healthy Leaf,MSLD,G1067,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515094640_bg1.jpg
+img_082.jpg,PM/IMG_0291_jpg.rf.28be564211e41cff9db6743a91c2345f.jpg,Powdery Mildew,RSFD,G0009,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0291_jpg.rf.28be564211e41cff9db6743a91c2345f.jpg
+img_083.jpg,PI/00185.jpg,Phyllody Infected,ERFD,G1378,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00185.jpg
+img_084.jpg,BB/00037.jpg,Bacteria Blight Infected,ERFD,G0127,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00037.jpg
+img_085.jpg,BB/IMG20250517104141_bg1.jpg,Bacteria Blight Infected,MSLD,G0594,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517104141_bg1.jpg
+img_086.jpg,BB/IMG20250517102141_bg1.jpg,Bacteria Blight Infected,MSLD,G0509,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517102141_bg1.jpg
+img_087.jpg,PM/IMG_3255_jpg.rf.03b21f5d21db6474d6ba9dda37378efe.jpg,Powdery Mildew,RSFD,G1410,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3255_jpg.rf.03b21f5d21db6474d6ba9dda37378efe.jpg
+img_088.jpg,PI/00142.jpg,Phyllody Infected,ERFD,G1348,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00142.jpg
+img_089.jpg,PI/00010.jpg,Phyllody Infected,ERFD,G1292,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00010.jpg
+img_090.jpg,BB/IMG20250517105246_bg1.jpg,Bacteria Blight Infected,MSLD,G0640,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517105246_bg1.jpg
+img_091.jpg,BB/IMG_3225_jpg.rf.ed8100dfd006872613b04257da68d97f.jpg,Bacteria Blight Infected,RSFD,G0809,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG_3225_jpg.rf.ed8100dfd006872613b04257da68d97f.jpg
+img_092.jpg,HL/00199.jpg,Healthy Leaf,ERFD,G0989,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00199.jpg
+img_093.jpg,HL/IMG20250515095937_bg1.jpg,Healthy Leaf,MSLD,G1076,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515095937_bg1.jpg
+img_094.jpg,PI/00171.jpg,Phyllody Infected,ERFD,G1371,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00171.jpg
+img_095.jpg,BB/IMG20250517125050_bg1.jpg,Bacteria Blight Infected,MSLD,G0721,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517125050_bg1.jpg
+img_096.jpg,BB/IMG20250517124603_bg1.jpg,Bacteria Blight Infected,MSLD,G0700,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517124603_bg1.jpg
+img_097.jpg,PI/00152.jpg,Phyllody Infected,ERFD,G1355,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00152.jpg
+img_098.jpg,HL/IMG20250515112626_bg1.jpg,Healthy Leaf,MSLD,G1114,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515112626_bg1.jpg
+img_099.jpg,BB/00088.jpg,Bacteria Blight Infected,ERFD,G0175,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00088.jpg
+img_100.jpg,HL/00066.jpg,Healthy Leaf,ERFD,G0888,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00066.jpg
+img_101.jpg,PM/IMG_0304_jpg.rf.644cab9451a873df0e9d974e24c63066.jpg,Powdery Mildew,RSFD,G0084,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0304_jpg.rf.644cab9451a873df0e9d974e24c63066.jpg
+img_102.jpg,PI/00156.jpg,Phyllody Infected,ERFD,G1359,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00156.jpg
+img_103.jpg,PM/20210809_155448_jpg.rf.2b31dfed39e31217bb3e690c54f4515b.jpg,Powdery Mildew,RSFD,G0078,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_20210809_155448_jpg.rf.2b31dfed39e31217bb3e690c54f4515b.jpg
+img_104.jpg,BB/IMG20250517102900_bg1.jpg,Bacteria Blight Infected,MSLD,G0534,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517102900_bg1.jpg
+img_105.jpg,PI/00153.jpg,Phyllody Infected,ERFD,G1356,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00153.jpg
+img_106.jpg,PM/IMG_3158_jpg.rf.0a58086aff5d2c7cb1a564f2f38a45ec.jpg,Powdery Mildew,RSFD,G1407,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3158_jpg.rf.0a58086aff5d2c7cb1a564f2f38a45ec.jpg
+img_107.jpg,HL/00034.jpg,Healthy Leaf,ERFD,G0060,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00034.jpg
+img_108.jpg,HL/00080.jpg,Healthy Leaf,ERFD,G0898,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00080.jpg
+img_109.jpg,PM/IMG_3324_jpg.rf.645ae721f4a3773a70ae66c79e534961.jpg,Powdery Mildew,RSFD,G1415,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3324_jpg.rf.645ae721f4a3773a70ae66c79e534961.jpg
+img_110.jpg,HL/IMG20250515090858_bg1.jpg,Healthy Leaf,MSLD,G1026,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515090858_bg1.jpg
+img_111.jpg,PI/00062.jpg,Phyllody Infected,ERFD,G1310,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00062.jpg
+img_112.jpg,PM/IMG_3204_jpg.rf.36d3450bec6fba284b466ec330c88510.jpg,Powdery Mildew,RSFD,G1409,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3204_jpg.rf.36d3450bec6fba284b466ec330c88510.jpg
+img_113.jpg,BB/20210812_154818_jpg.rf.08f5c510c325c23db2a8ef3c6a6174cf.jpg,Bacteria Blight Infected,RSFD,G0372,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210812_154818_jpg.rf.08f5c510c325c23db2a8ef3c6a6174cf.jpg
+img_114.jpg,PM/IMG_3335_jpg.rf.0c1d89d84d81fb1e1fc3fac9e09d8582.jpg,Powdery Mildew,RSFD,G0011,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3335_jpg.rf.0c1d89d84d81fb1e1fc3fac9e09d8582.jpg
+img_115.jpg,HL/00026.jpg,Healthy Leaf,ERFD,G0856,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00026.jpg
+img_116.jpg,BB/00122.jpg,Bacteria Blight Infected,ERFD,G0208,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00122.jpg
+img_117.jpg,HL/00040.jpg,Healthy Leaf,ERFD,G0866,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00040.jpg
+img_118.jpg,PM/IMG_0358_jpg.rf.3eb4c02ac6bc1f7def3b1d201e39053b.jpg,Powdery Mildew,RSFD,G0016,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0358_jpg.rf.3eb4c02ac6bc1f7def3b1d201e39053b.jpg
+img_119.jpg,HL/IMG20250516164628_bg1.jpg,Healthy Leaf,MSLD,G1204,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250516164628_bg1.jpg
+img_120.jpg,PM/IMG_3307_jpg.rf.06fbb4cf7e56dc4ffe163fc0d9752a78.jpg,Powdery Mildew,RSFD,G1414,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3307_jpg.rf.06fbb4cf7e56dc4ffe163fc0d9752a78.jpg
+img_121.jpg,BB/IMG20250517110104_bg1.jpg,Bacteria Blight Infected,MSLD,G0668,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517110104_bg1.jpg
+img_122.jpg,BB/IMG20250517105836_bg1.jpg,Bacteria Blight Infected,MSLD,G0656,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_IMG20250517105836_bg1.jpg
+img_123.jpg,PI/00046.jpg,Phyllody Infected,ERFD,G1305,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00046.jpg
+img_124.jpg,PI/00002.jpg,Phyllody Infected,ERFD,G1289,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00002.jpg
+img_125.jpg,PI/00001.jpg,Phyllody Infected,ERFD,G1288,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00001.jpg
+img_126.jpg,PM/IMG_3325_jpg.rf.00ba35899cbc7b7d572a8cde0a9fa33b.jpg,Powdery Mildew,RSFD,G1416,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_3325_jpg.rf.00ba35899cbc7b7d572a8cde0a9fa33b.jpg
+img_127.jpg,PM/20210826_170041_jpg.rf.1424a3f64cdb88eb420dec2f45d094e4.jpg,Powdery Mildew,RSFD,G0079,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_20210826_170041_jpg.rf.1424a3f64cdb88eb420dec2f45d094e4.jpg
+img_128.jpg,BB/00166.jpg,Bacteria Blight Infected,ERFD,G0247,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00166.jpg
+img_129.jpg,BB/00137.jpg,Bacteria Blight Infected,ERFD,G0221,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00137.jpg
+img_130.jpg,PM/IMG_0442_jpg.rf.245a25ecf445733398e1b373a1208890.jpg,Powdery Mildew,RSFD,G0007,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0442_jpg.rf.245a25ecf445733398e1b373a1208890.jpg
+img_131.jpg,HL/IMG20250515100720_bg1.jpg,Healthy Leaf,MSLD,G1090,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515100720_bg1.jpg
+img_132.jpg,HL/IMG20250515112458_bg1.jpg,Healthy Leaf,MSLD,G1112,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250515112458_bg1.jpg
+img_133.jpg,PM/IMG_0314_jpg.rf.07a5a95190e2ab8edefd6db565c98b30.jpg,Powdery Mildew,RSFD,G0085,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0314_jpg.rf.07a5a95190e2ab8edefd6db565c98b30.jpg
+img_134.jpg,PI/00086.jpg,Phyllody Infected,ERFD,G1317,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00086.jpg
+img_135.jpg,PI/00143.jpg,Phyllody Infected,ERFD,G1349,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00143.jpg
+img_136.jpg,PM/20210826_165751_jpg.rf.28a2df50c8be93948627add9a0b93c6f.jpg,Powdery Mildew,RSFD,G1395,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_20210826_165751_jpg.rf.28a2df50c8be93948627add9a0b93c6f.jpg
+img_137.jpg,BB/20210811_111352_jpg.rf.0f8e75fe805b74815b8a613a0ff7ad58.jpg,Bacteria Blight Infected,RSFD,G0354,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210811_111352_jpg.rf.0f8e75fe805b74815b8a613a0ff7ad58.jpg
+img_138.jpg,BB/00061.jpg,Bacteria Blight Infected,ERFD,G0149,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_00061.jpg
+img_139.jpg,HL/00061.jpg,Healthy Leaf,ERFD,G0884,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00061.jpg
+img_140.jpg,HL/00077.jpg,Healthy Leaf,ERFD,G0896,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_00077.jpg
+img_141.jpg,PI/00169.jpg,Phyllody Infected,ERFD,G1369,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00169.jpg
+img_142.jpg,HL/IMG20250517104042_bg1.jpg,Healthy Leaf,MSLD,G1283,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250517104042_bg1.jpg
+img_143.jpg,PM/IMG_9934_jpg.rf.950056ffcfdff86c3d5af676f63bb00b.jpg,Powdery Mildew,RSFD,G1423,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_9934_jpg.rf.950056ffcfdff86c3d5af676f63bb00b.jpg
+img_144.jpg,PI/00236.jpg,Phyllody Infected,ERFD,G1387,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00236.jpg
+img_145.jpg,PM/IMG_0265_jpg.rf.0ee1c6172e7c502054c57f648782ef5f.jpg,Powdery Mildew,RSFD,G0006,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0265_jpg.rf.0ee1c6172e7c502054c57f648782ef5f.jpg
+img_146.jpg,PI/00181.jpg,Phyllody Infected,ERFD,G1376,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00181.jpg
+img_147.jpg,BB/20210822_134545_jpg.rf.0e001393e0baba6e74c415353754d723.jpg,Bacteria Blight Infected,RSFD,G0469,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Bacteria Blight Infected\Trial_A_20210822_134545_jpg.rf.0e001393e0baba6e74c415353754d723.jpg
+img_148.jpg,HL/IMG20250516165155_bg1.jpg,Healthy Leaf,MSLD,G1215,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Healthy Leaf\Trial_A_IMG20250516165155_bg1.jpg
+img_149.jpg,PI/00082.jpg,Phyllody Infected,ERFD,G1314,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Phyllody Infected\Trial_A_00082.jpg
+img_150.jpg,PM/IMG_0392_jpg.rf.1dd570850d9c1148f9e2a3b1de79c089.jpg,Powdery Mildew,RSFD,G1404,Sesame Datasets\Combining Datasets\SesameMulti Dataset + Synthetic Data\Powdery Mildew\Trial_A_IMG_0392_jpg.rf.1dd570850d9c1148f9e2a3b1de79c089.jpg

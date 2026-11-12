@@ -12,12 +12,15 @@ Sheets:
                  mean difference, 95% CI and the Nadeau-Bengio corrected t-test, plus an
                  equivalence test (TOST, same correction): are the two heads equal within
                  +-2 accuracy points (+-0.02 F1)? and the smallest margin that would pass
-  other_comparisons  same head, paired: multi vs multi_syn (does synthetic data help?) and
-                 frozen vs layer4 unfrozen
+  other_comparisons  same head, paired: multi vs multi_syn and multi vs multi_syn2 (does synthetic
+                 data help?) and frozen vs layer4 unfrozen
   kan_check      spline checks of every KAN run
+  kan_class_share  per class: share of what the class output receives that comes from the splines
+                 (every KAN run trained after this table was added)
   kan_knockout   test scores of every KAN run with the spline part / base part switched off
   speed          measured latency (from bench_speed.py), if it has been run
   kan_curves     spline share per KAN layer (from kan_curves.py), if it has been run
+  kan_curves_class  per class spline share from the saved weights (kan_curves.py), if it has been run
 
 Data labels: "multi-f25" = 25% of the training photos, "base-rand" = photo-level random splits
 (leakage check), "bbhl_cross" = Bacterial Blight vs Healthy trained on one source, tested on the other.
@@ -37,14 +40,15 @@ from scipy import stats
 from common import RUNS_DIR, OUT_ROOT
 
 SETTING_COLS = ["phase", "data", "preproc", "head", "hidden", "grid", "order", "dropout", "norm",
-                "kan_base", "backbone", "unfreeze", "seed", "select", "epochs", "split", "train_frac", "oversample"]
+                "kan_base", "act", "backbone", "unfreeze", "seed", "select", "epochs", "split", "train_frac",
+                "oversample"]
 EQUIV_MARGIN = {"test_acc": 2.0, "test_bal_acc": 2.0, "test_f1": 0.02}
 
 
 def load_runs():
-    runs, folds, kans, knock = [], [], [], []
+    runs, folds, kans, knock, shares = [], [], [], [], []
     if not RUNS_DIR.exists():
-        return pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
+        return pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
     for d in sorted(p for p in RUNS_DIR.iterdir() if p.is_dir()):
         cfg_p, folds_p = d / "config.json", d / "folds.csv"
         if not cfg_p.exists() or not folds_p.exists() or folds_p.stat().st_size < 5:
@@ -62,6 +66,7 @@ def load_runs():
                 pass
         settings = {k: cfg.get(k) for k in SETTING_COLS}
         settings["kan_base"] = settings["kan_base"] or "on"          # runs made before this option = on
+        settings["act"] = settings["act"] or "relu"                  # runs made before --act = ReLU
         settings["split"] = settings["split"] or "group"
         settings["train_frac"] = float(settings["train_frac"] or 1.0)
         settings["data_raw"] = settings["data"]
@@ -103,8 +108,13 @@ def load_runs():
             k = pd.read_csv(ko)
             k.insert(0, "run_name", d.name)
             knock.append(k)
+        cs = d / "kan_class_share.csv"
+        if cs.exists() and cs.stat().st_size > 5:
+            k = pd.read_csv(cs)
+            k.insert(0, "run_name", d.name)
+            shares.append(k)
     cat = lambda xs: pd.concat(xs, ignore_index=True) if xs else pd.DataFrame()
-    return pd.DataFrame(runs), cat(folds), cat(kans), cat(knock)
+    return pd.DataFrame(runs), cat(folds), cat(kans), cat(knock), cat(shares)
 
 
 def rank(runs, phase):
@@ -156,7 +166,9 @@ def add_config_label(f):
     nb = np.where(f["kan_base"].astype(str) == "off", "_nobase", "")
     kan = (f["head"] + "_h" + f["hidden"].astype(str) + "_g" + f["grid"].astype(str) + "_o" +
            f["order"].astype(str) + nb + "_d" + f["dropout"].astype(str) + "_" + f["norm"].astype(str))
-    mlp = f["head"] + "_h" + f["hidden"].astype(str) + "_d" + f["dropout"].astype(str) + "_" + f["norm"].astype(str)
+    act = np.where(f["act"].astype(str) == "silu", "_silu", "") if "act" in f else ""
+    mlp = (f["head"] + "_h" + f["hidden"].astype(str) + act + "_d" + f["dropout"].astype(str) + "_" +
+           f["norm"].astype(str))
     lin = f["head"] + "_d" + f["dropout"].astype(str) + "_" + f["norm"].astype(str)
     f["config"] = np.where(f["head"] == "kan", kan, np.where(f["head"] == "mlp", mlp, lin))
     return f
@@ -205,12 +217,13 @@ def comparisons(folds):
 
 def other_comparisons(folds):
     """Same head, one other thing changed (the test images stay the same, so pairs are valid):
-       multi_syn vs multi (synthetic data), layer4 vs frozen (fine-tuning)."""
+       multi_syn / multi_syn2 vs multi (synthetic data), layer4 vs frozen (fine-tuning)."""
     if folds.empty:
         return pd.DataFrame()
     f = add_config_label(folds)
     rows = []
-    for factor, a, b in (("data", "multi_syn", "multi"), ("unfreeze", "layer4", "none")):
+    for factor, a, b in (("data", "multi_syn", "multi"), ("data", "multi_syn2", "multi"),
+                         ("unfreeze", "layer4", "none")):
         others = [c for c in ["phase", "data", "preproc", "backbone", "unfreeze", "config"] if c != factor]
         for key, g in f.groupby(others):
             A = g[g[factor] == a].set_index(["seed", "fold"])
@@ -250,7 +263,7 @@ def knockout_summary(knock):
 
 
 def main():
-    runs, folds, kans, knock = load_runs()
+    runs, folds, kans, knock, shares = load_runs()
     if runs.empty:
         print("No finished runs found in", RUNS_DIR)
         return
@@ -266,9 +279,11 @@ def main():
         comp.to_excel(xw, sheet_name="comparisons", index=False)
         other_comparisons(folds).to_excel(xw, sheet_name="other_comparisons", index=False)
         kans.to_excel(xw, sheet_name="kan_check", index=False)
+        shares.to_excel(xw, sheet_name="kan_class_share", index=False)
         knockout_summary(knock).to_excel(xw, sheet_name="kan_knockout", index=False)
         for sheet, path in (("speed", OUT_ROOT / "speed" / "speed.csv"),
-                            ("kan_curves", OUT_ROOT / "figures" / "kan_curves_summary.csv")):
+                            ("kan_curves", OUT_ROOT / "figures" / "kan_curves_summary.csv"),
+                            ("kan_curves_class", OUT_ROOT / "figures" / "kan_curves_class_shares.csv")):
             if path.exists():
                 pd.read_csv(path).to_excel(xw, sheet_name=sheet, index=False)
     tmp.replace(out)

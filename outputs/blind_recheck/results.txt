@@ -1,0 +1,22 @@
+Blind re-check, scored 2026-11-10 14:12
+Labelled: 150 of 150 images (0 left empty)
+Agreement: 91.3%
+Cohen's kappa: 0.884 (95% bootstrap interval 0.822 to 0.938)
+
+Confusion matrix (rows = dataset label, columns = second label):
+second label              Bacteria Blight Infected  Healthy Leaf  Phyllody Infected  Powdery Mildew
+dataset label                                                                                      
+Bacteria Blight Infected                        38             0                  0               0
+Healthy Leaf                                     6            32                  0               0
+Phyllody Infected                                0             0                 37               0
+Powdery Mildew                                   7             0                  0              30
+
+Agreement per class and source:
+                     cls source  images  agreement
+Bacteria Blight Infected   ERFD      11   1.000000
+Bacteria Blight Infected   MSLD      15   1.000000
+Bacteria Blight Infected   RSFD      12   1.000000
+            Healthy Leaf   ERFD      15   1.000000
+            Healthy Leaf   MSLD      23   0.739130
+       Phyllody Infected   ERFD      37   1.000000
+          Powdery Mildew   RSFD      37   0.810811

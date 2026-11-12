@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite it and the paper (see the README)."
-title: "Sesame Leaf Disease Classification with a CNN-KAN Head: code, splits, results and synthetic images"
+title: "Code, splits, results and synthetic images for: Do Kolmogorov-Arnold Network Classifier Heads Improve Plant Disease Recognition? A Controlled Study on Multi-Source Sesame Leaf Images"
 authors:
   - family-names: Khaled
     given-names: Ahmed
 license: MIT
 repository-code: "https://github.com/Ahmed-Khaled2/Sesame-Leaf-Disease-CNN-KAN"
-date-released: 2026-11-05
+date-released: 2026-11-12
 keywords:
   - sesame
   - plant disease
